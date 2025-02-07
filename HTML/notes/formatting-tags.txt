@@ -1,0 +1,2 @@
+Formatting tags  are used to format the given text. it applies styles such as bold,italic,underline etc..,
+ 

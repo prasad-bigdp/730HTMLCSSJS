@@ -1,0 +1,44 @@
+In HTML, Every element will have corresponding open and close tags. Each and every element will have its own purpose
+ Headings: 
+   HTML provides 6 heading ranging from h1 to h6
+   h1 is of higher importance and h6 is having lower importance.
+   It is recommanded to keep one h1 per page for better SEO
+   eg: <h1>text</h1>, <h2>text</h2> ....
+   all headings are bold and differed by size.
+ Paragraph:
+   Paragraphs are used for descriptions. usually , they are not bold. it uses 'p' tag
+   eg: <p>Paragraph text </p>
+
+Emmets: emmets are the shortcuts provided by VSCode
+eg: lorem emmet will give dummy Paragraph and '+' emmet is used for multiple elements to print one after another
+
+Hyperlinks:
+  hyperlinks helps to navigate from one page to another web page.They use 'a' tag
+  eg: <a>text</a>
+  But anchor tags uses links as 'href' attribute
+  eg: <a href="link">text</a>
+  To open link in new tab , we can use target attribute with value '_blank'
+  eg: <a href="link" target="_blank">text</a>
+Image:
+  Images are used for visual appearence of website
+  we can include images using 'img' tag.
+  img tag will contain two attributes
+  src: src will contain source of images
+  alt: alt will contain alternate text which appears
+  when image is not loading.
+
+self closing Tags: some tags in HTML need not to be closed. They have only open tag. These elements are called self closing tags or void elements or unpaired tags.
+
+eg: img, meta,br,hr,input etc..,
+
+
+
+  
+
+
+
+
+
+
+
+
