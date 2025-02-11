@@ -38,7 +38,10 @@ i. ordered Lists:
   3. Definition Lists:
    Definition List is used to define particular events, terms or any steps
    it uses 'dl' tag. for definition, it used 'dt'(definition term) and for description , it used 'dd'(definition Dara)
-
+    <dl>
+      <dt></dt>
+      <dd></dd>
+    </dl>
 
 
 

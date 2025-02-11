@@ -1,0 +1,49 @@
+Tag vs Element:
+    Tag represent either openeing or closing tags
+    but element is complete entity with content
+    element = open tag + content + close tag
+    eg: <h1> heading </h1> - h1 element
+
+elements in HTML are of two types:
+  i. inline elements
+  ii. block elements
+  Block elements: Block elements always starts in a new line. They won't allow any other elements beside them
+  eg: all headings,p, div
+  Inline elements: Inline elements will continue the control and they allow other elements beside them
+  eg: a,img, span
+
+  div and span are container elements and they are used
+  to combine multiple elements.
+
+  Semantic Elements:
+     semantic elements are used to make the HTML code more 
+ structured and easy to undestand for search engines.
+ It is recommanded for better SEO.
+ There are so many semantic elements, each serve different purpose
+  eg: header, footer,nav,aside,section,article,main,figure etc..,
+  non semantic code: 
+    <div>  text </div>
+  semantic code:
+    <section> text </section>
+
+class and Id's:
+   class and Id's are the attributes given to a particular 
+   element to identify the element.
+   classes are used to identify multiple elements at a time
+   id is used to identify the element uniquely
+   one element can have multiple class names and
+   multiple elements can have same class names
+   Id's are always unique.
+
+
+
+
+
+
+
+
+
+
+
+
+
