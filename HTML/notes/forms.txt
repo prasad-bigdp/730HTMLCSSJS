@@ -1,0 +1,38 @@
+forms are used to collect inputs into webpages from users. 
+eg: signin , signup, feedback, suggestion, application,
+contact,appraisal form etc..,
+
+   The complete form uses 'form' tag. it contains attributes
+like 
+  action: contains path to where input details will be submitted
+
+Inputs will be collected using 'input' tag. it is a self closing tag. it contains attributes like
+  type: used to define type of input
+  placeholder: dummy text placed in input until user inputs a value. used for hints
+  value: used to have a value for input by default
+  name: used to send the values entered using the name
+  id: id is used to identify the input uniquely
+
+eg: <input tyep="text" placeholder="enter name"
+      value="prasad" name="na" id="nam" >
+
+
+label: label is used to define inputs and are connected to inputs by 'for' attribute'
+label's for and inputs id should be same
+eg: <label for="nam">name</label>
+ <input tyep="text" placeholder="enter name"
+      value="prasad" name="na" id="nam" >
+
+we can wrap whole form within fieldset for a border
+and we can use legend for a caption of fieldset
+eg: <fieldset>
+<legend>signup</legend>
+<label for="nam">name</label>
+ <input tyep="text" placeholder="enter name"
+      value="prasad" name="na" id="nam" >
+</fieldset>
+
+
+
+
+
