@@ -11,6 +11,28 @@
         <legend>sign up form</legend>
         <input type="hidden" name="class" value="10">
         <label for="na"> Name:</label>
+        <br><br>
+        <label for="course">select your course</label>
+        <select name="course" id="course">
+            <optgroup label="ENGG">
+               <option value="cse">CSE</option>
+               <option value="ece">ECE</option>
+               <option value="eee">EEE</option>
+               <option value="mech">Mech</option>
+            </optgroup>
+           <optgroup label="DEGREE">
+              <option value="bsc">BSC</option>
+              <option value="bca">BCA</option>
+              <option value="bcom">BCOM</option>
+              <option value="bba">BBA</option>
+           </optgroup>
+           <optgroup label="PG">
+                <option value="mba">MBA</option> 
+                <option value="mca">MCA</option> 
+                <option value="mcom">MCOM</option> 
+           </optgroup>     
+            </select>
+        <br><br>
      <input type="text" name="na" id="na"><br><br>
        <!-- radio buttons -->
         <input type="radio" name="gender" value="male" id="m" checked>
@@ -28,7 +50,15 @@
         <br><br>
         <label for="add">enter your address</label>
         <textarea name="add" id="add"></textarea>
-
+         <p>please select your state</p>
+      <select name="state" multiple>
+          <option value="KN">Karnataka</option>
+          <option value="MR">Maharastra</option>
+          <option value="AP">AP</option>
+          <option value="OD">Odisha</option>
+          <option value="BH">Bihar</option>
+          <option value="TN">Telangana</option>
+      </select>
 
 
 
@@ -56,8 +86,8 @@
       <input type="button" value="some button">
       <input type="submit" value="submit">
       <input type="reset" value="reset">
-
-
+       <!-- drop down -->
+       
 
      <button>submit</button>
        </fieldset>

@@ -68,6 +68,85 @@ checkbox: checkbox is used to select multiple options
 textarea: textarea is used for textual input but
 for longer texts
 
+select: select is used for selection(drop-down). it can be used for single or multiple selections. Each choice is named under a tag "option". all option are within tag "select"
+select contains name attribute and options contain value attributes
+eg: <select name="state">
+          <option value="KN">Karnataka</option>
+          <option value="MR">Maharastra</option>
+          <option value="AP">AP</option>
+          <option value="OD">Odisha</option>
+          <option value="BH">Bihar</option>
+          <option value="TN">Telangana</option>
+      </select>
+we can group options by using "optgroup" tag with attribute "label" to write name of the group
+By keeping multiple attribute to select, we can select multiple elements
+
+
+
+Form Validation:
+Forms can be validated directly in HTML by using following attributes
+i. required: it is used to make an input/select as required to submit for form submission
+ii. minlength: it is used to assign minimum number of characters the value should have
+iii. maxlength: it is used to assign maximum number of characters the value should have
+iv. min: it is used to assign minimum value user has to enter
+v. max: it is used to assign maximum value user has to enter
+vi. disabled: it is used to make inputs disabled
+vii. readonly: it is used to make input only readable. you cannot change the value.
+
+Regular Expressions: A regex is a string of characters that defines a pattern. it is used to match, validate and extract data from text
+usually regext starts with ^ and ends with $.
+[] -- these are used for groups
+eg: [A-Z],[a-z],[A-Z0-9]
+{} -- these are used for range
+eg: [A-Z]{3} -- accepts only 3 captial letters
+    [A-Z]{3,} -- accepts minimum 3 captial letters
+*  -- * means 0 or more occurences of previous pattern
+eg: pr* ==> p,pr,prr,prrrr,prrrrr
+ 
++  --  + is used for 1 or more occurences of previous pattern
+eg: pr+ -- pr,prrr,prrr.....
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
