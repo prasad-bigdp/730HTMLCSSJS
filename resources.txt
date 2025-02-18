@@ -1,0 +1,15 @@
+----------- UI & UX -------------------
+   figma
+   dribble
+   behance
+
+--------- HTML -----------------------
+   freecodecamp
+   codepen
+   uiverse
+
+--------- communities ---------------
+dev.to (read daily , post weekly once/twice)
+hashnode
+medium
+daily.dev(extension & app)

@@ -1,0 +1,38 @@
+HTML5 comprises of so many advanced HTML features such as
+   i. semantic elements
+   ii. svg
+   iii. canvas
+   iv. media
+   v. drag n drop
+   vi. data attributes
+
+i. semantic elements: These elements are used to increase the readability of the code using section,nav,main,article,header,footer instead of general divs
+
+ii. svg: svg stands for scalable vector graphics. HTML5 allows us to create simple graphics using svg.
+  we can use circle, rect or text inside svg, it is not compatable completely with safari
+  so usage should be minimal
+
+iii. canvas: canvas is powerful feature of HTML which allows users to create 2d/3d animation using JS
+
+iv. media: HTML5 provides different multimedia features such as
+video, audio, iframe etc..,
+
+v. drag n drop: HTML5 allows us to make any element draggable by giving an attribute draggable="true"
+
+vi. data attributes: HTML elements can also store a value using data-attributes
+These attributes are customised and helpful in indivial values
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
