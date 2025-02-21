@@ -1,0 +1,85 @@
+/* div{
+    height: 100px;
+    width: 50vw;
+    background-color: red;
+} */
+ /* .parent{
+    width: 50vw;
+    height: 50vh;
+    background-color: red;
+    border: 10px solid black;
+    border-radius: 200px;
+ }
+ .child{
+    width:50%;
+    height: 2em;
+
+    background-color: green;
+ } */
+
+
+/* p{
+    font-size: 48px;
+    border-right: 10px solid green;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+div{
+    height:200px;
+    width: 200px;
+    color: white;
+    padding:50px;
+    box-sizing: border-box;
+    background-color: green;
+    border-radius: 20px 50px 80px 30px;
+    margin-bottom: 20px;
+}
+h1,h2,h3{
+    border: 1px solid red;
+    width: max-content;
+}
+section
+{
+margin-left: 20px;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    color: white;
+    padding: 35px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

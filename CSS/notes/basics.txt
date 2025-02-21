@@ -1,0 +1,44 @@
+units:
+   units are the measurement needed for a specific property
+   i. px(pixels) : pixels are the least basic unit of screen. 
+   ii. vh/vw(viewport-height/viewport-width): These measurement uses whole screen as 100%
+     100vh --100% of whole screen height
+     100vw -- 100% of whole screen width
+   iii. %(percentage) : it is used to measure certain percent of parent
+   iv.  em(enumerated value): it is x times of parents font-size.
+     1em = 1*parent font size
+   v.  rem(root enumerated value): it is x times of roots font size
+      1 rem = 16px;
+
+use px only few times because it is not responsive
+
+
+box-model: Any element in HTML is represented as a box. A box contains three properties.
+   i border: border is the fence line around the box.
+        border: border-width border-style border-color;
+        for every border , we can also assign border-radius(corner-radius)
+        border-radius: size;
+        we can specify border or border-radius to only specific side
+        border-left,border-right,border-top,border-bottom,
+        border-top-left-radius etc..
+    ii. padding: padding means space between border and content of the element
+    padding:size;
+    padding increases generally height and width. To stop it we can use,
+    box-sizing:border-box;
+
+    iii. margin: margin means space outside the box to the other element
+      margin:size;
+
+By default, every element contains certain margin and padding. we can stop them by using universal selector(*)
+
+
+
+
+
+
+
+
+
+
+
+
