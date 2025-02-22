@@ -31,7 +31,13 @@ box-model: Any element in HTML is represented as a box. A box contains three pro
 
 By default, every element contains certain margin and padding. we can stop them by using universal selector(*)
 
-
+ iii. fonts and text properties:
+      for a Good website along with colors,layout, fonts also plays a crucial role. Any fonts in the world belongs to 5 families
+      i.serif
+      ii.sans-serif
+      iii.monospace
+      iv.cursive
+      v.modern/fantasy
 
 
 
