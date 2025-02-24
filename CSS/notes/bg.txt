@@ -1,0 +1,21 @@
+We can apply background-properties of an element using
+  i.background-color:colorname/rgb/rgba/hsl/hsla/hex code
+   it will apply color to the background
+  ii. background-image: linear-gradient(degree,color1,color2...)
+   it provides gradient of two color from left to right or right to left/top to bottom/bottom to top/certain degree
+   we can mention multiple colors and each color with certain percentage
+  iii. background-image:radial-gradient(color1,color2...)
+    it provides gradient from inner to outer circular way
+  iv. background-image:url('image path'): it sets the imageas per its dimensions. we can adjust it using below properties
+       background-repeat:repeat/repeat-x/repeat-y/no-repeat
+       background-position: left/right/top/bottom/center;
+       background-size:cover/contain;
+       background-attachement:scroll/fixed;
+       background-blend-mode: it applied different filters to the background
+       background-clip: text/border; it clips the image according to text/border. also called masking 
+
+
+
+  
+
+

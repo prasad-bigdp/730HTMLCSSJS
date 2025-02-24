@@ -2,7 +2,7 @@
 body{
    /* font-family: 'Bebas Neue'; */
 }
-p{
+/*p{
     font-size: 24px;
     font-weight:bolder ;
     font-style: italic;
@@ -43,7 +43,7 @@ margin-left: 20px;
     color: white;
     padding: 35px;
     box-sizing: border-box;
-}
+}*/
 /* div{
     height: 100px;
     width: 50vw;
@@ -69,7 +69,14 @@ margin-left: 20px;
     border-right: 10px solid green;
 } */
 
-
+#box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
 
 
 

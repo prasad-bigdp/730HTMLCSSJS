@@ -13,3 +13,16 @@ dev.to (read daily , post weekly once/twice)
 hashnode
 medium
 daily.dev(extension & app)
+
+--------- CSS -----------------------
+freecodecamp
+google fonts
+dafonts
+1001 fonts
+colorZilla(extension)
+colorhunt
+cssgradient.io
+pattern css
+color picker
+freepik,unsplash,pexels
+
