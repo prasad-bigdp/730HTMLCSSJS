@@ -25,4 +25,19 @@ cssgradient.io
 pattern css
 color picker
 freepik,unsplash,pexels
+flexboxfroggy
+flexboxlabs.netlify.app
+------------------------------------------------------------------
+FrontendMentor:
+   goto FrontendMentor website 
+   create an account
+   goto challenges ---> select one free challenge
+   open challenge --> download assets ---> download starter
+   extract zip file and do the code
 
+Netlify:
+      goto netlify website
+      create an account
+      goto add new/deploy manually
+      upload folder --> select your folder -->upload
+      goto site config and change name

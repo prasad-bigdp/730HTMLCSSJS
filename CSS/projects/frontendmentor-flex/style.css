@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 16px;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+.para{
+    max-width: 70%;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+}
+h2{
+    font-weight: 900;
+}
+.container{
+    background-color:white;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    border-radius: 20px;
+}
+.music{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    padding: 20px;
+    border-radius: 10px;
+}
+button{
+    width: 100%;
+    background-color: hsl(245, 75%, 52%);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.cancel
+{
+    text-decoration: none;
+}
+.banner{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
