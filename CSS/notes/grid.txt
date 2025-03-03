@@ -1,0 +1,26 @@
+Grid is used to arrange the elements in two dimensions i.e., rows and columns.
+Grid is also used for complex layouts using grid lines (row lines and column lines)
+Parent Properties:
+   display:grid ---> arrange child items fit in grid
+   grid-template-columns: col1-width col2-width ......
+   mention each column width to divide as columns
+   100px 100px / repeat(2,100px) / 50% 50% / 1fr 1fr
+   grid-template-rows: row1-width row2-width ......
+   mention each row height to divide as rows
+   100px 100px / repeat(2,100px) / 50% 50% / 1fr 1fr
+   justify-content: which will move items in horizontal direction
+   align-items: which will move items in vertical direction
+   gap: gap between the items (row-gap/column-gap)
+
+Child Properties:
+   grid is divided as per row lines and column lines i.e., 3 rows will have 4 row lines and 3 columns will have 4 column lines
+   grid-row-start: starting row line number
+   grid-row-end: ending row line number
+   grid-column-start: starting column line number
+   grid-column-end: ending column line number
+   grid-row: grid-row-start/grid-row-end;
+   grid-column: grid-column-start/grid-column-end
+   grid-area: grid-row-start/grid-column-start/grid-row-end/grid-column-end
+   order: by default order is zero. we can specify each one element's order
+   
+

@@ -27,6 +27,9 @@ color picker
 freepik,unsplash,pexels
 flexboxfroggy
 flexboxlabs.netlify.app
+https://flexboxlabs.netlify.app/grid
+https://cssgridgarden.com/
+https://codingfantasy.com/games
 ------------------------------------------------------------------
 FrontendMentor:
    goto FrontendMentor website 

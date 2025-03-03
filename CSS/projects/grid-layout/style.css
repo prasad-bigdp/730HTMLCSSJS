@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.parent{
+    height: 70vh;
+    width: 70vw;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.child{
+    background-color: red;
+    color: white;
+    font-size: 24px;
+    border: 1px solid white;
+}
+.child1{
+    grid-row: 1/4;;
+    grid-column: 1/2;
+    background-color: green;
+}
+.child2{
+    grid-row: 1/2;
+    grid-column: 2/4;
+    background-color: green;
+}
+.child4{
+    background-color: orange;
+}
+.child6{
+    grid-row: 2/4;
+    grid-column: 4/5;
+    background-color: green;
+}
+.child8{
+    background-color: orange;
+}
