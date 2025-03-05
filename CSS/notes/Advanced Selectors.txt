@@ -41,3 +41,13 @@ but we also other ways of selection as below:
 
 there are so many advanced Pseudo classes available in css such as 
 :is, :has, :not,:where,:empty etc..,
+
+  Pseudo Elements:
+      Pseudo elements are the special selectors which are mentioned followed by ::
+   i. ::placeholder -- used to select placeholder of a input
+   ii. ::before -- used to select or give content before an element. for assigning content, we can use 'content' property with unicodes
+   iii. ::after -- used to select or give content after an element.
+   iv. ::first-letter -- used to select an elements text first letter
+   v. ::first-line -- used to select an element's first line
+ 
+

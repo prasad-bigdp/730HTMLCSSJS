@@ -1,4 +1,4 @@
-#box{
+/* #box{
     background-color: red;
     height: 100px;
     width: 100px;
@@ -52,15 +52,20 @@ input:enabled{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+ */
+ input::placeholder{
+    text-align: right;
+ }
+  p::first-letter{
+    font-size: 48px;
+  }
+  p::first-line{
+    color: red;
+  }
+  p::before{
+   content:"\201C" 
+  }
+  p::after{
+    content:"\201D";
+    font-size:48px;
+  }
