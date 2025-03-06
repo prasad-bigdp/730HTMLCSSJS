@@ -1,0 +1,70 @@
+/* #box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    animation: prasad 5s ease infinite reverse,bouncing-ball 5s ease infinite alternate;
+} */
+ /* #shinchan{
+    animation: movesides 2s ease infinite alternate;
+ } */
+  #typing{
+    border-right:2px solid red;
+    animation: typingg 2s steps(6) alternate;
+    animation-fill-mode: forwards;
+    display: inline-block;
+  }
+  @keyframes typingg{
+     0%{
+        width: 0px;
+     }
+     100%{
+        width:max-content;
+     }
+  }
+/* 
+
+ @keyframes movesides {
+    25%{
+         transform: translateX(300px) translateY(0px) rotate(180deg);
+    }
+    50%{
+         transform: translateX(300px) translateY(300px) rotate(360deg);
+    }
+    75%{
+       transform: translateX(0px) translateY(300px) rotate(-180deg);
+
+    }
+    100%{
+        transform: translate(0px);
+    }
+ }
+@keyframes bouncing-ball
+{
+  0%{
+  }
+  50%{
+       transform: translateY(500px);
+       border-radius: 50%;
+  }
+  100%{
+    transform:translateX(200px) translateY(-500px);
+       border-radius: 50%;
+  }
+}
+@keyframes prasad {
+    20%{
+        background-color: green;
+    }
+    40%{
+        background-color: orange;
+    }
+    60%{
+        background-color: blue;
+    }
+    80%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: red;
+    }
+} */
