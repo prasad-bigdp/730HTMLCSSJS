@@ -44,3 +44,8 @@ Netlify:
       goto add new/deploy manually
       upload folder --> select your folder -->upload
       goto site config and change name
+
+animista -- for animations
+https://github.com/emmabostian/developer-portfolios
+
+https://www.svgrepo.com/
