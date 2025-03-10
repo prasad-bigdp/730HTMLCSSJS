@@ -1,0 +1,29 @@
+Bootstrap is a css component library.
+Library is a pre written code used for specific purposes
+for eg: 
+some.css
+  .x{
+    background:red;
+  }
+  .y{
+    background:blue
+  }
+change HTML as 
+  <div class="x">dbvhs</div>
+
+
+How to use Library?
+Every library is nothing but a prewritten code. To import that code or connect that code to our HTML, we need to add CDN link of that particular library
+ eg: search cdn link of library-name and get the cdn link and add to link tag as href
+
+Every library uses lot of classnames , so go to that dcoumentation and use its classnames in your code.
+
+libraries list: 
+https://animate.style/
+https://getbootstrap.com/
+
+
+
+
+
+
