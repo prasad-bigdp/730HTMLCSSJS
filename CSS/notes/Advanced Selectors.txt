@@ -1,0 +1,53 @@
+We can select any element using tagname, classname or id name
+but we also other ways of selection as below:
+  i. child selector:
+        we can select any immediate child of parent using '>'
+    eg: div>p{ color:red; }
+    p immediate inside of div have color red.
+  ii. descendant selector:
+       we can select any element who is descendant of another element using
+       space
+       eg: div p { color: red; }
+    p is the descendant of div 
+  iii. sibling selector
+    we can select any element which comes right after the other element 
+    using +
+    h1+p{
+        color:red
+    }
+    p which is coming immediate next of h1 will have color red
+
+ Pseudo selectors:
+    we can select elements based on its state or position using : or ::
+  Pseudo classes:
+   a. :hover  -- works when you keep your mouse over the element
+   b. :link  -- works for every anchor tag which is a link
+      :active -- works when you click the anchor tag
+      :visited -- works when you already visited the anchor tag link
+   c. :required -- selects all inputs which have required
+      :optional -- selects all inputs which are not required
+      :readonly -- selects all inputs which are readonly
+      :read-write -- selects all inputs which are not readonly
+      :disabled -- selects all inputs which are disabled
+      :enabled -- selects all inputs which are not disabled
+  d. we can select child items based on their position like
+      :first-child -- select the first child 
+      :last-child -- select the last child
+      :nth-child(number) -- select the child of specific number
+      :nth-last-child(number) -- select the child of specific number from last
+      we can give even or odd in place of number
+      :nth-of-type(number) -- select the child of specific type and specific number
+      :nth-of-last-type(number) -- select the child of specific type and specific number from last
+
+there are so many advanced Pseudo classes available in css such as 
+:is, :has, :not,:where,:empty etc..,
+
+  Pseudo Elements:
+      Pseudo elements are the special selectors which are mentioned followed by ::
+   i. ::placeholder -- used to select placeholder of a input
+   ii. ::before -- used to select or give content before an element. for assigning content, we can use 'content' property with unicodes
+   iii. ::after -- used to select or give content after an element.
+   iv. ::first-letter -- used to select an elements text first letter
+   v. ::first-line -- used to select an element's first line
+ 
+

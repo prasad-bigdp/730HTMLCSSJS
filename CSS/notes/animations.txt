@@ -1,0 +1,106 @@
+CSS Animations Guide
+==================
+CSS Animations Guide
+==================
+
+1. Basic Animation Properties
+---------------------------
+The main properties used for CSS animations are:
+- animation-name: Specifies the @keyframes animation to use
+- animation-duration: How long the animation should take (in seconds or milliseconds)
+- animation-timing-function: Specifies the speed curve of the animation
+- animation-delay: Delay before animation starts
+- animation-iteration-count: Number of times to run the animation
+- animation-direction: Specifies if animation should play in reverse or alternate
+- animation-fill-mode: Specifies what styles apply before/after animation
+- animation-play-state: Allows pausing/playing the animation
+1. Basic Animation Properties
+---------------------------
+The main properties used for CSS animations are:
+- animation-name: Specifies the @keyframes animation to use
+- animation-duration: How long the animation should take (in seconds or milliseconds)
+- animation-timing-function: Specifies the speed curve of the animation
+- animation-delay: Delay before animation starts
+- animation-iteration-count: Number of times to run the animation
+- animation-direction: Specifies if animation should play in reverse or alternate
+- animation-fill-mode: Specifies what styles apply before/after animation
+- animation-play-state: Allows pausing/playing the animation
+
+Shorthand syntax:
+animation: name duration timing-function delay iteration-count direction fill-mode;
+Shorthand syntax:
+animation: name duration timing-function delay iteration-count direction fill-mode;
+
+Example 1: Basic Fade Animation
+-----------------------------
+```css
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+Example 1: Basic Fade Animation
+-----------------------------
+```css
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fade 2s ease-in;
+}
+.fade-in {
+    animation: fade 2s ease-in;
+}
+
+Example 2: Color Changing Box
+-----------------------------
+@keyframes colorChange {
+    0% {
+        background-color: red;
+    }
+    50% {
+        background-color: blue;
+    }
+    100% {
+        background-color: green;
+    }
+}
+.ease-example {
+    animation: slide 3s ease infinite;
+}
+
+.linear-example {
+    animation: slide 3s linear infinite;
+}
+
+.custom-timing {
+    animation: slide 3s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
+}
+Example 2: Color Changing Box
+-----------------------------
+@keyframes colorChange {
+    0% {
+        background-color: red;
+    }
+    50% {
+        background-color: blue;
+    }
+    100% {
+        background-color: green;
+    }
+}
+
+.color-changing-box {
+    width: 100px;
+    height: 100px;
+    animation: colorChange 4s infinite;
+}

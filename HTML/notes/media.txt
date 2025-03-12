@@ -1,0 +1,34 @@
+media files are used to represent visual presentation such as images, videos,audios etc..,
+we can include different media elements
+i. audio: we can include audio files in website using
+'audio' tag. The source of audio file will be mentioned
+with 'source' tag
+   <audio autocontrols>
+      <source src="path to audio file">
+   </audio>
+
+ii. video: we can include video file in website using 'video' tag. The source of the video file will be mentioned with 'source' tag
+   <video autocontrols>
+      <source src="path to audio file">
+   </video>
+
+  controls is mandatory to bring controls and we can 
+   autoplay and muted also. we can control height and width properties also
+
+iii. iframe: iframe is used to present any media of third party. it is used embedded code. 
+iframe contains src(source file/link path), frameborder(border of the frame).
+any public resource of internet can be embedded
+eg:<iframe width="560" height="315" src="https://www.youtube.com/embed/t0Q2otsqC4I?si=_eycgDWhp8wIzPnR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+iv. figure: figure tag is a semantic element which is used
+to print images along with its caption
+eg: <figure>
+      <img src="" alt="">
+      <figcaption>caption of image</figcaption>
+    </figure>
+
+
+
+
+
+

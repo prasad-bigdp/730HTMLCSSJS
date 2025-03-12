@@ -1,0 +1,33 @@
+HTML(Hypertext Markup Language):
+
+    web developement started with GML(generalised markup language), later it developed as SGML(standard generalised markup language) and finally in 1992, web starts HTML(hypertext markup language). 
+    HTML is used to provide structure/skeleton of the website. It provides all the text,media,forms,button etc.., The current version of HTML is HTML5.
+To work with HTML, we need a code editor. Download and install VSCode
+  step 1:goto https://code.visualstudio.com/download
+  step 2: download 'windows' setup and .exe file will be download
+  step 3: double click on downloaded file and next--->next until install -->finish
+
+Everything  in HTML is developed by tags. we can have open tag and close tag
+<tagname>   --- open tag
+</tagname> --- close tag
+
+whole HTML will be inside <html> and </html>
+html contains 2 elements head and body
+head contains meta data(data about the data)
+head also contain title
+body contains actual content of the website
+
+<html>
+   <head>
+      <title>My First Web Site</title>
+   </head>
+   <body>
+    HEllo world
+   </body>
+</html>
+
+VScode provides some shortcuts called "emmets"
+!+enter or html:5+enter will give basic template of HTML
+
+In HTML, we can mention comments between <!--   and -->. comments are used for better readability of code
+

@@ -1,0 +1,14 @@
+CSS
+-------
+  Intro
+  different types of CSS
+  basic selectors
+  basics(units, fonts,colors, BoxModel)
+  background,font-face
+  position,float,display,
+  flex
+  grid
+  advanced selectors, transitions
+  animations
+  media queries
+  HTMl,CSS website

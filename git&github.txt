@@ -1,0 +1,36 @@
+GIT & GITHUB : 
+   Git is a distributed version control system. it is a software, we need to download and install. Git is used to track  changes(versions) in your code base
+   Git is developed and maintained by ORACLE.
+
+   GITHUB is a web based platform that provides a central location to git repositories. it makes others to collaborate into your projects.
+   GITHUB is developed and maintained by microsoft
+   Eg: github, gitlab,bitbuckets etc..,
+
+   Download & Install the Git: 
+   1. go to https://git-scm.com/downloads
+   2. operating system --> 64 bit windows setup
+   3. click and install, after installing, goto cmd --> type "git -v"
+
+   Git terminology:
+    1. repository(repo) : it is the central location  where all the files and history of project, all the changes are stored like a folder
+    2. commit : It is like saving the changes, it creates a snapshot of particular changes made at that point
+    3. branch : branch is separate line in repository, allowing multiple versions of single code, exist
+    4. merge: merge means process of combining multiple branches
+
+  Git commands:
+  1. git init: it will initiate the git
+  2. git config: it will let the git know who you are
+     git config user.email "your email id of github"
+     git config user.name "your username of github"
+
+ This need to done only first time
+
+ 3. git add . : it will stage all the changes 
+ 4. git commit -m "message" : it will save your code with some messgae
+
+
+
+
+
+
+

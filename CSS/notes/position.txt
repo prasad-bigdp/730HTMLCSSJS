@@ -1,0 +1,19 @@
+position in CSS: Position in css is used to keep the element at different places of the window. it allows you to control the position of element on a web page.
+There are 5 positions available in CSS 
+  i. static: The default positioning of elements is static . Elements are positioned according to normal document flow
+  2. relative: Elements are positioned relative to their normal positions. you can use top,left,right,bottom properties to move the element
+
+  In case if two elements are overlapped because of position, then the element which have more z-index will come on top of other elements
+
+iii. absolute: Elements are positioned relative to their nearest ancestor(body).you can use top,left,right,bottom properties to move the element
+
+iv. fixed: fixed is nothing but absolut but scrolling will not have any impact
+on fixed
+
+v. sticky: Elements are positioned as their nearest ancestor(body) but will be fixed after it reaches certain position
+
+
+
+
+
+

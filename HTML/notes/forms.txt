@@ -1,0 +1,182 @@
+forms are used to collect inputs into webpages from users. 
+eg: signin , signup, feedback, suggestion, application,
+contact,appraisal form etc..,
+
+   The complete form uses 'form' tag. it contains attributes
+like 
+  action: contains path to where input details will be submitted
+
+Inputs will be collected using 'input' tag. it is a self closing tag. it contains attributes like
+  type: used to define type of input
+  placeholder: dummy text placed in input until user inputs a value. used for hints
+  value: used to have a value for input by default
+  name: used to send the values entered using the name
+  id: id is used to identify the input uniquely
+
+eg: <input tyep="text" placeholder="enter name"
+      value="prasad" name="na" id="nam" >
+
+
+label: label is used to define inputs and are connected to inputs by 'for' attribute'
+label's for and inputs id should be same
+eg: <label for="nam">name</label>
+ <input tyep="text" placeholder="enter name"
+      value="prasad" name="na" id="nam" >
+
+we can wrap whole form within fieldset for a border
+and we can use legend for a caption of fieldset
+eg: <fieldset>
+<legend>signup</legend>
+<label for="nam">name</label>
+ <input tyep="text" placeholder="enter name"
+      value="prasad" name="na" id="nam" >
+</fieldset>
+
+
+
+Different types of Inputs:
+text: text is used to enter textual input
+email : email is used to enter email inputs
+password: password is used to enter secret keys or passwords
+date: date is used to select the date using calender
+time: time is used to select the time
+datetime-local: it is used to select date&time at a time
+number: it is used to enter numerical values
+file: it is used to upload a file
+color: it is used to select a color
+url: it is used to enter urls of websites
+search: it is used to enter a searching text
+week: it is used to select the week of year
+month: it is used to select the month of year
+range: it is used to select a particular range
+button: it is used to create a button for general purpose
+submit: it is used to create a button for submitting the form
+reset: it is used to create a button for resetting the form
+radio: it is used for radio buttons. radio buttons are used specifically for  single input
+   <input type="radio" name="gender" value="male" id="m" checked>
+        <label for="m">Male</label>
+          <input type="radio" name="gender" value="female" id="f">
+        <label for="f">feMale</label>
+
+checkbox: checkbox is used to select multiple options
+<input type="checkbox" name="lang" value="english" id="en">
+        <label for="en">English</label>
+        <input type="checkbox" name="lang" value="telugu" id="te">
+        <label for="te">telugu</label>
+        <input type="checkbox" name="lang" value="hindi" id="hi">
+        <label for="hi">Hindi</label>
+textarea: textarea is used for textual input but
+for longer texts
+
+select: select is used for selection(drop-down). it can be used for single or multiple selections. Each choice is named under a tag "option". all option are within tag "select"
+select contains name attribute and options contain value attributes
+eg: <select name="state">
+          <option value="KN">Karnataka</option>
+          <option value="MR">Maharastra</option>
+          <option value="AP">AP</option>
+          <option value="OD">Odisha</option>
+          <option value="BH">Bihar</option>
+          <option value="TN">Telangana</option>
+      </select>
+we can group options by using "optgroup" tag with attribute "label" to write name of the group
+By keeping multiple attribute to select, we can select multiple elements
+
+
+
+Form Validation:
+Forms can be validated directly in HTML by using following attributes
+i. required: it is used to make an input/select as required to submit for form submission
+ii. minlength: it is used to assign minimum number of characters the value should have
+iii. maxlength: it is used to assign maximum number of characters the value should have
+iv. min: it is used to assign minimum value user has to enter
+v. max: it is used to assign maximum value user has to enter
+vi. disabled: it is used to make inputs disabled
+vii. readonly: it is used to make input only readable. you cannot change the value.
+
+Regular Expressions: A regex is a string of characters that defines a pattern. it is used to match, validate and extract data from text
+usually regext starts with ^ and ends with $.
+[] -- these are used for groups
+eg: [A-Z],[a-z],[A-Z0-9]
+{} -- these are used for range
+eg: [A-Z]{3} -- accepts only 3 captial letters
+    [A-Z]{3,} -- accepts minimum 3 captial letters
+*  -- * means 0 or more occurences of previous pattern
+eg: pr* ==> p,pr,prr,prrrr,prrrrr
+ 
++  --  + is used for 1 or more occurences of previous pattern
+eg: pr+ -- pr,prrr,prrr.....
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

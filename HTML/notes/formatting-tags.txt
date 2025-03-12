@@ -1,0 +1,35 @@
+Formatting tags  are used to format the given text. it applies styles such as bold,italic,underline etc..,
+ b - b is used to make the text bold
+ eg: <b>text</b>
+ strong - strong is used to make the text bold but strong is more understandable to search engines so better SEO
+ i - i is used to make text italic
+ eg: <i>text</i>
+ em - em is used to make the text , italic but em is more understandable to search engines than I.so better SEO
+ eg: <em>text</em>
+ u - u is used to make the text underline 
+ eg: <u>text</u>
+ s - s is used to strike out
+ eg: <s>text</s>
+ del - del is used to make the text strike out but it sends message as delete to search engines
+ eg: <del>text</del>
+ mark - mark is used to highlight the text
+ eg: <mark>text</mark>
+ sub - sub is used to make text as subscript
+ eg: <sub>text</sub>
+ sup - sup is used to make the text as superscript
+ eg: <sup>text</sup>
+ br - br is used to break the line. br is a self closing tags
+ eg: <br> or <br />
+ hr - hr is used to make the horizontal line. hr is also
+ self closing tags
+ eg: <hr />
+ code - code is used to write codes
+ eg: <code> cout("hello world") </code>
+ pre - pre is used to define the text in preformmated order
+ eg: <pre>Good
+          Bad
+          Ugly
+     </pre>
+
+
+

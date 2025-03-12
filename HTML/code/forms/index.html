@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <form action="main.py">
+       <fieldset>
+        <legend>sign up form</legend>
+        <input type="hidden" name="class" value="10">
+        <label for="na"> Name:</label>
+        <br><br>
+        <label for="course">select your course</label>
+        <select name="course" id="course">
+            <optgroup label="ENGG">
+               <option value="cse">CSE</option>
+               <option value="ece">ECE</option>
+               <option value="eee">EEE</option>
+               <option value="mech">Mech</option>
+            </optgroup>
+           <optgroup label="DEGREE">
+              <option value="bsc">BSC</option>
+              <option value="bca">BCA</option>
+              <option value="bcom">BCOM</option>
+              <option value="bba">BBA</option>
+           </optgroup>
+           <optgroup label="PG">
+                <option value="mba">MBA</option> 
+                <option value="mca">MCA</option> 
+                <option value="mcom">MCOM</option> 
+           </optgroup>     
+            </select>
+        <br><br>
+     <input type="text" name="na" id="na"><br><br>
+       <!-- radio buttons -->
+        <input type="radio" name="gender" value="male" id="m" checked>
+        <label for="m">Male</label>
+          <input type="radio" name="gender" value="female" id="f">
+        <label for="f">feMale</label>
+        <br><br>
+        <p>Languages known:</p>
+        <input type="checkbox" name="lang" value="english" id="en">
+        <label for="en">English</label>
+        <input type="checkbox" name="lang" value="telugu" id="te">
+        <label for="te">telugu</label>
+        <input type="checkbox" name="lang" value="hindi" id="hi">
+        <label for="hi">Hindi</label>
+        <br><br>
+        <label for="add">enter your address</label>
+        <textarea name="add" id="add"></textarea>
+         <p>please select your state</p>
+      <select name="state" multiple>
+          <option value="KN">Karnataka</option>
+          <option value="MR">Maharastra</option>
+          <option value="AP">AP</option>
+          <option value="OD">Odisha</option>
+          <option value="BH">Bihar</option>
+          <option value="TN">Telangana</option>
+      </select>
+
+
+
+
+
+
+
+
+     <label for="em">Email:</label>
+     <input type="email" name="em" placeholder="eg: a@a.com" id="em"><br><br>
+     <label for="pwd">password</label>
+     <input type="password" name="pwd" placeholder="Enter the password" id="pwd"><br><br>
+     <input type="date" name="doj" id="doj">
+     <input type="time" name="time" id="time">
+     <input type="datetime-local" name="" id=""><br><br>
+     <input type="number" name="" id="">
+     <input type="file"><br><br>
+     <input type="color" name="" id=""><br><br>
+     <input type="month" name="" id="">
+     <input type="range" name="" id="">
+      <br><br>
+      <input type="url" name="" id="">
+      <input type="search" name="" id="">
+      <input type="week" name="" id=""><br><br>
+      <input type="button" value="some button">
+      <input type="submit" value="submit">
+      <input type="reset" value="reset">
+       <!-- drop down -->
+       
+
+     <button>submit</button>
+       </fieldset>
+    </form>
+</body>
+</html>

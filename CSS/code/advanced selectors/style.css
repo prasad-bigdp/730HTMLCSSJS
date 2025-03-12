@@ -1,0 +1,71 @@
+/* #box{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+#box:hover{
+    background-color: green;
+}
+h1>a
+{
+  color: green;
+}
+div a{
+    color: red;
+}
+div a:hover{
+  display: none;  
+}
+ul span{
+    color:green
+}
+ h1+p{
+        color:red
+    }
+a:link{
+    color: green;
+}
+a:active{
+    color: red;
+}
+a:visited{
+    color: purple;
+}
+input:enabled{
+    border: 1px solid red;
+}
+.child{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    color: white;
+    margin: 10px 0px;
+}
+.parent>div:nth-of-type(1){
+    background-color: rgb(255, 0, 0);
+}
+
+
+
+
+
+
+
+
+ */
+ input::placeholder{
+    text-align: right;
+ }
+  p::first-letter{
+    font-size: 48px;
+  }
+  p::first-line{
+    color: red;
+  }
+  p::before{
+   content:"\201C" 
+  }
+  p::after{
+    content:"\201D";
+    font-size:48px;
+  }

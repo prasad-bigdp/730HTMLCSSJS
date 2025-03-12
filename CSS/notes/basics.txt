@@ -1,0 +1,98 @@
+units:
+   units are the measurement needed for a specific property
+   i. px(pixels) : pixels are the least basic unit of screen. 
+   ii. vh/vw(viewport-height/viewport-width): These measurement uses whole screen as 100%
+     100vh --100% of whole screen height
+     100vw -- 100% of whole screen width
+   iii. %(percentage) : it is used to measure certain percent of parent
+   iv.  em(enumerated value): it is x times of parents font-size.
+     1em = 1*parent font size
+   v.  rem(root enumerated value): it is x times of roots font size
+      1 rem = 16px;
+
+use px only few times because it is not responsive
+
+
+box-model: Any element in HTML is represented as a box. A box contains three properties.
+   i border: border is the fence line around the box.
+        border: border-width border-style border-color;
+        for every border , we can also assign border-radius(corner-radius)
+        border-radius: size;
+        we can specify border or border-radius to only specific side
+        border-left,border-right,border-top,border-bottom,
+        border-top-left-radius etc..
+    ii. padding: padding means space between border and content of the element
+    padding:size;
+    padding increases generally height and width. To stop it we can use,
+    box-sizing:border-box;
+
+    iii. margin: margin means space outside the box to the other element
+      margin:size;
+
+By default, every element contains certain margin and padding. we can stop them by using universal selector(*)
+
+ iii. fonts and text properties:
+      for a Good website along with colors,layout, fonts also plays a crucial role. Any fonts in the world belongs to 5 families
+      i.serif: serif fonts will have stroke at the end like times new roman
+      ii.sans-serif: sans serif fonts will not have stroke at the end like Arial
+      iii.monospace: monospace fonts have same height to all elements like space mono
+      iv.cursive: cursive fonts have stylish letters kind of chained together like cederville
+      v.modern/fantasy: fantasy fonts are the modern and different fonts  like papyrus
+
+      we can include different fonts using 
+    a. google fonts: goto google fonts --> select font --> get font --> get embed code --> import --> copy the import link and paste at the top of CSS
+
+    properties:
+     font-family: typeface name,family name (eg: times new roman,serif)
+     font-weight: size(100-1000/bold/bolder) used for thickness
+     font-style: italic/normal/oblique
+     font-size: size
+     text-align: center/left/right/start/end/justify
+     text-decoration: width style(solid/dotted/dashed/wavy) color position(underline/overline/line-through)
+     text-transform: uppercase/lowercase/captalise
+     text-shadow: x y z color(eg: 5px 5px 5px green)
+     letter-spacing:size
+     line-height:size
+
+  iv. colors:
+     colors represents brand and css can include colors in multiple ways
+    i. colorname: In css , we can directly give name of the color
+    ii. hexCode: every color will have a hexa decimal code followed by #
+    eg: #5f8082
+    iii. rgb(red,green,blue): each color takes value from 0 to 255
+    eg: rgba(81, 113, 21, 0.17)
+     we can also apply lightness to it by alpha
+    iv. hsl(hue,saturation,lightness): hue takes degree of the color,
+    saturation is % of darkness, lightness is % of lightness
+    eg: hsl(0, 25.00%, 79.60%)
+     we can alsp apply alpha to it
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

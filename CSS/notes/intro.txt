@@ -1,0 +1,103 @@
+CSS:
+CSS(Cascading Style Shetts) is a styling language used to control the layout and appearence of web pages. it is used to separate the styles/design from the structure of web page.
+It started in 1994.
+
+CSS syntax contains set of rules known as styles, which are applied to elements of the web page . it consists of 
+i. selector: it defines what element style will be applied
+ii. property: it defines what property to be applied
+iii. value : it defines what value for the given property will be applied.
+for eg:
+        p  ---> selector
+        {
+            background-color: red; ---> property:value;
+        }
+
+CSS Types:
+   CSS can be applied to HTML elements in three ways
+i. Inline CSS: Defined Directly within the HTML element using style as a attribute
+  <element style="property:value....">content</element>
+
+ii. internal CSS: Defined within HTML document using style as a Element.
+   we can mention style element anywhere but keeping style at the end of head will give better performance
+
+   <style>
+       selector{
+        property:value;
+       }
+   </style>
+
+iii. External CSS: making all styles in HTML file will make file longer and difficult to understand. so, we can use CSS files separately from HTML 
+using .css extension
+
+we can link html to external css using link tag. link is a self closing tag
+<link rel="stylesheet" href="path to css file">
+
+content of external file is similar internal css content
+  selector{
+    property:value
+  }
+
+out of all three types Inline is more powerful. 
+!important > Inline> Internal=external
+
+
+
+Selectors: we can select HTML elements in multiple ways 
+  i. tag selector: we can select all elements containg specific tag using tag name as a selector
+     tagname{
+        property:value;
+     }
+  ii. class: we can select multiple specific elements containing a classname using class selector. class selector using dot notation
+      .classname{
+                property:value;
+      }
+  iii. Id: we can select any one individual element using Id.
+  we can represent Id using hash notations
+     #id{
+        property:value
+     }
+ 
+  #id  > .class > tag
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

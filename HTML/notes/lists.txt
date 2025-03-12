@@ -1,0 +1,72 @@
+Lists are used to list out certain items. eg: shopping list, groceries, ingredients, menu list, marks, list of books, index.
+Lists in HTML are of three types. They are:
+ i. ordered Lists
+ ii. unordered Lists
+ iii. Definition Lists
+
+i. ordered Lists:
+             ordered Lists considers List of items with some  specific values. They use 'ol' tag for the list and each item in the list use 'li' tag.
+    eg: <ol>
+          <li>chapter 1</li>
+          <li>chapter 2</li>
+        </ol>
+    it mentions 5 types like '1'/'A'/'a'/'i'/'I'
+    By default numbers will be three
+    we can use type attribute for it.
+    we can also use 'start' attribute to start the order from wherever we want
+
+    <ol type="A" start="24">
+            <li>Raj</li>
+            <li>sita</li>
+            <li>pavan</li>
+            <li>suresh</li>
+    </ol>
+
+
+    2. unordered lists: unordered lists are used to list out certain item without specific order
+
+    it uses  'ul' tag and 'li' tag
+       <ul>
+            <li>Chocolate</li>
+            <li>rice</li>
+            <li>milk</li>
+            <li>oil</li>
+        </ul>
+
+  we can keep one list inside another list called nested list
+
+  3. Definition Lists:
+   Definition List is used to define particular events, terms or any steps
+   it uses 'dl' tag. for definition, it used 'dt'(definition term) and for description , it used 'dd'(definition Dara)
+    <dl>
+      <dt></dt>
+      <dd></dd>
+    </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

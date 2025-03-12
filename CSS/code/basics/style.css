@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+   /* font-family: 'Bebas Neue'; */
+}
+/*p{
+    font-size: 24px;
+    font-weight:bolder ;
+    font-style: italic;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    line-height: 30px;
+}
+h1{
+    text-align:center;
+    text-decoration: 2px solid black line-through;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 10px #c38501;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    height:200px;
+    width: 200px;
+    color: white;
+    padding:50px;
+    box-sizing: border-box;
+    background-color: green;
+    border-radius: 20px 50px 80px 30px;
+    margin-bottom: 20px;
+}
+h1,h2,h3{
+    border: 1px solid red;
+}
+section
+{
+margin-left: 20px;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    color: white;
+    padding: 35px;
+    box-sizing: border-box;
+}*/
+/* div{
+    height: 100px;
+    width: 50vw;
+    background-color: red;
+} */
+ /* .parent{
+    width: 50vw;
+    height: 50vh;
+    background-color: red;
+    border: 10px solid black;
+    border-radius: 200px;
+ }
+ .child{
+    width:50%;
+    height: 2em;
+
+    background-color: green;
+ } */
+
+
+/* p{
+    font-size: 48px;
+    border-right: 10px solid green;
+} */
+
+#box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

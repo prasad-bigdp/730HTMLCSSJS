@@ -1,0 +1,37 @@
+FlexBox: FlexBox is used for a container to keep its childern or child elements in single direction either row or column;
+   Parent Properties:
+   -----------------
+     1. display: flex;
+        arranges all child items in single row
+     2. flex-direction:
+        defines the direction in which items are arranged
+         row/column/row-reverse/column-reverse
+     3. justify-content:
+         moves the elements along the flex-direction
+         left/flex-start/right/flex-end/center/space-between/space-around/space-evenly
+     4. align-items:
+          moves the elements in opposite direction
+          start/flex-start/left/right/end/flex-end/center
+     5. flex-wrap:
+          wrap the elements such that multiple lines will be formed
+          nowrap/wrap/wrap-reverse
+     6. align-content:  gap between lines are adjusted using this.
+      left/flex-start/right/flex-end/center/space-between/space-around/space-evenly
+     7. gap: provides gap between the items
+    
+    child Properties:
+    ----------------
+     align-self:  moves the only individual element in opposite direction
+     justify-self: moves the only individual element in same direction
+     order: defines the order in which they arrange. default 0 for all
+     flex-grow: makes individual element grow bigger
+     flex-shrink: makes individual element shrink smaller
+     flex-basis: makes a specific width of element 
+
+
+     https://flexboxlabs.netlify.app/
+     flexboxfroggy.com
+    
+
+
+

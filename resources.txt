@@ -1,0 +1,51 @@
+----------- UI & UX -------------------
+   figma
+   dribble
+   behance
+
+--------- HTML -----------------------
+   freecodecamp
+   codepen
+   uiverse
+
+--------- communities ---------------
+dev.to (read daily , post weekly once/twice)
+hashnode
+medium
+daily.dev(extension & app)
+
+--------- CSS -----------------------
+freecodecamp
+google fonts
+dafonts
+1001 fonts
+colorZilla(extension)
+colorhunt
+cssgradient.io
+pattern css
+color picker
+freepik,unsplash,pexels
+flexboxfroggy
+flexboxlabs.netlify.app
+https://flexboxlabs.netlify.app/grid
+https://cssgridgarden.com/
+https://codingfantasy.com/games
+------------------------------------------------------------------
+FrontendMentor:
+   goto FrontendMentor website 
+   create an account
+   goto challenges ---> select one free challenge
+   open challenge --> download assets ---> download starter
+   extract zip file and do the code
+
+Netlify:
+      goto netlify website
+      create an account
+      goto add new/deploy manually
+      upload folder --> select your folder -->upload
+      goto site config and change name
+
+animista -- for animations
+https://github.com/emmabostian/developer-portfolios
+
+https://www.svgrepo.com/

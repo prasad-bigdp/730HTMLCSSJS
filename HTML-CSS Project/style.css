@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:rebeccapurple;
+}
+body{
+  height: 100vh;
+  font-size: 18px;
+}
+header
+{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    margin: 20px 0px;
+    padding: 20px 30px;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px var(--primary-color);
+}
+nav ul{
+  display: flex;
+  list-style:none;
+  gap: 20px;
+}
+li{
+    display: flex;
+    gap: 10px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+li>img{
+    height: 24px;
+    background-color: white;
+}
+/* header ends */
+/* banner starts */
+main{
+    max-width: 1280px;
+    margin: auto;
+}
+section{
+    padding: 50px 0px;
+}
+#banner{
+    display: flex;
+    gap: 10px;
+}
+.leftBanner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.leftBanner h1{
+    font-size: 48px;
+}
+.leftBanner h1>span{
+    color: var(--primary-color);
+}
+.leftBanner p{
+    font-size: 24px;
+    text-align: justify;
+}
+.buttons>button{
+    padding: 20px 30px;
+    font-size: 24px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+#anime{
+    width: 500px;
+    height: 500px;
+}
+.buttons>button:nth-child(2){
+    background-color: transparent;
+    color: black;
+    border: 2px solid var(--primary-color);
+}
+.buttons>button:nth-child(2):hover{
+    background-color: var(--primary-color);
+    color: white;
+}
+.social-icons img{
+    height: 30px;
+}
+/* banner ends*/
+/* about starts */
+.title{
+    font-size: 48px;
+    text-align: center;
+}
+#about{
+    display: flex;
+    gap: 50px;
+}
+#details{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+#details>p{
+    font-size: 24px;
+}
+.skills>p{
+        font-size: 24px;
+        font-weight: bolder;
+}
+.skills>img{
+    height: 100px;
+}
+.skills>img:hover{
+    transform: scale(1.05);
+}
+#image>img{
+    border-radius: 50%;
+    height: 400px;
+    box-shadow: 20px 20px 20px var(--primary-color);
+}
+/* about ends */
+/* projects starts here */
+  #projects{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+  }
+  .project{
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+  }
+  .project>button{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+  }
+  .project>img{
+    width: 300px;
+  }
+ .project:hover{
+    transform: scale(1.05);
+ }
+/* projects ends here */
+/*contact starts*/
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  .form{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+  }
+  input,textarea{
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+  }
+  textarea{
+    height: 100px;
+    resize: none;
+  }
+  .form>button{
+    padding: 20px 30px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-size: 24px;
+  }
+  input::placeholder,textarea::placeholder{
+    padding: 5px;
+  }
+/*contact ends*/
+footer{
+    text-align: center;
+    font-size: 24px;
+    background-color: black;
+    color: white;
+}
+
+
+/* media queries*/
+@media (max-width:580px){
+  #banner{
+    flex-direction: column;
+    padding:0px 20px;
+  } 
+  li a{
+    font-size: 16px;
+  }
+  li>img{
+    height: 16px;
+  }
+  .leftBanner{
+    gap: 20px;
+  }
+  .buttons>button{
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  .rightBanner{
+    width: 400px;
+    height: 400px;
+}
+#projects{
+    grid-template-columns: repeat(1,1fr);
+}
+}
+@media (min-width:577px) and (max-width:978px){
+  #banner{
+    padding:0px 20px;
+  } 
+  li a{
+    font-size: 16px;
+  }
+  li>img{
+    height: 16px;
+  }
+  .leftBanner{
+    gap: 20px;
+  }
+  .buttons>button{
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  #anime{
+    width: 400px;
+    height: 400px;
+}
+#projects{
+    grid-template-columns: repeat(2,1fr);
+}
+}
+
+
+
+
+
+
+
+

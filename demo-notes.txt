@@ -1,0 +1,136 @@
+Day 1: course structure:
+HTML,CSS and JS(basic frontend for web development):
+----------------------------
+    i. internet fundamentals
+    ii. basic UI & UX design
+    iii. HTML
+           intro, headings,paragraph,a,img,tables,lists,forms,validations,media,semantic,HTML5
+          2-3 tasks
+   iv. basic css
+    v. advanced css(2-3 tasks)
+ PROJECT: HTML & CSS website
+    vi. bootstrap
+ PROJECT: Bootstrap Website
+    vii. git & github
+    viii.  Basic JS(intro,variables,operators,datatypes,
+           arrays,functions,objects,if,switch,loops,DOM,events)
+      ix. Advanced JS(ajax,promises,async await,fetch,APIs,ES6,oops)
+        5-7 Tasks
+      x. Real Time Project (HTML,CSS,Bootstrap & JS)
+
+Duration: demo classes:5-7 days
+                 HTML -- 10 days
+                 CSS -- 15 days
+                  Projects -Bootstrap :5 days  
+                  JS - 30 days   
+Beginner Friendly
+class Timings: 7.30-7.35  -- 8.50-8.55    
+
+after this, if you complete react ==> frontend developer
+
+
+Day 2:
+Internet Fundamentals:
+   i. what is internet?
+          internet is a network of networks. A network is a connection. internet connection works as a web which conncets all over the world.
+
+  Initially , US developed ARPANET in 1960's.
+  In late 1980's,  Tim Berners Lee initiated WWW at CERN.
+  In 1990's browsers came into existence and many website started its global reach
+  In 1992, HTML is officially launched. In 1994, CSS is launched. In 1995, Javascript is launched.
+  To monitor web technologies, Top companies formed a group for an organization called W3C(world wide web consoritum)
+
+2. How internet Works?
+   when we actually type "google.com" in our browsers(client) , it sends request to ISP(Internet service provider) and then it reaches to DNS(domain name system) . In DNS, we can get IP address for given domain and based on IP address, it reaches the server. Then server provides HTML,CSS,JS of "google.com" to client
+
+In simple words, we can frame as "client-server" model
+client requests the server
+server responds to the client.
+
+Internet Terminologies:
+    domain: Domain is the name of the website
+    URL : it stands for uniform resource locator . it is nothing but domain with protocol
+     eg: https://www.google.com
+   Protocol: protocol defines the rules of network/connection
+    Eg: http, https, tcp,ip,ftp
+    http: hypertext transfer protocol
+    https: hypertext transfer protocol secure
+    SSL: secure socket layer is a certificate to provide website https
+    Hosting: keeping website in a server(deploying)
+
+Day 3:
+3. what is the difference between Google, google.com and google chrome?
+Google -- search engine:
+How? -- seach engines release crawlers for specific keywords and these crawlers checks all websites for those words and returns data. seach engines filters data and ranks them based on multiple factors and displays it
+Getting Rank one for website , we follow certain procedures called Search Engine Optimisation(SEO)
+Eg: Google, yahoo, duckduckgo,Qmamu,ask.com,bing,yandex
+Google.com -- website -- website is a collection of web pages
+Google chrome -- browser -- Browsers are multi purposed software specifically used for browsing the internet.
+eg: chrome, firefox, edge,safari,opera,brave,vivaldi
+
+
+4. How exactly web development process works?
+      step 1: Requirements gathering, Research, plan website features
+      step 2: wireframing and UI,UX Design
+                   wireframe: brasic diagrams of how web pages looks
+                   UI(user interface) : what you see in web page
+                   UX(user experience) : what you feel in web page
+      step 3: Developement
+                   (frontend - HTML, CSS, JS, Bootstrap, JQuery, React
+                    angular,vue, next js, nuxt js, typescript, tailwind)
+                   (Backend - PHP(laravel),Python(django) , 
+                    Java(spring  boot),Node(express), C#(asp.net))
+                   Databases(mongodb,mysql,oracle,cassandra,
+                   postgresql, sql server )  
+     step4: Testing(unit testing, integration testsing -- 
+                 JEST,selenium)
+     step 5: deployement/production(aws,netlify,vercel,Azure,
+                  Gcloud,hostinger etc..,)
+     step 6: Maintainence(Devops - aws-,ci/cd pipelines,docker,
+                 kubernetes etc..,)
+
+
+  Day 4:
+Design(UI & UX): 
+UI - user Interface - what you see in a web page
+     colors, fonts, layout, images, sizes
+  
+UX - user Experience - what you feel in a web page
+probelm: pets are alone when owners are out of town. owners worries about their pets health
+process:  
+1. petcare center
+2. pet movers and packers
+3. pay someone to take care of pet
+4. babysitter
+5. someone who loves to have pet but can't(pet rental)
+
+Inspiration: dribble, behance
+freelance sites: fiverr,upwork
+Design: figma
+
+Day 5 :
+   we designed a webpage in figma
+
+Day 6: 
+    HTML(Hypertext Markup Language):
+
+               web developement started with GML(generalised markup language), later it developed as SGML(standard generalised markup language) and finally in 1992, web starts HTML(hypertext markup language). 
+               HTML is used to provide structure/skeleton of the website. It provides all the text,media,forms,button etc.., The current version of HTML is HTML5.
+To work with HTML, we need a code editor. Download and install VSCode
+  step 1:goto https://code.visualstudio.com/download
+  step 2: download 'windows' setup and .exe file will be download
+  step 3: double click on downloaded file and next--->next until install -->finish
+
+Day 7: 
+
+
+
+
+
+
+
+
+
+
+
+

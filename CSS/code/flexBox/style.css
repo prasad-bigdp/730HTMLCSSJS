@@ -1,0 +1,35 @@
+.parent{
+    height: 400px;
+    width: 410px;
+    border: 1px solid red;
+    display: flex;
+    /* flex-wrap: wrap-reverse; */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+   gap: 10px;
+}
+
+.child{
+    background-color: red;
+    color: white;
+    font-size: 32px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+}
+.child1{
+    /* align-self: start; */
+    /* flex-grow: 2; */
+}
+.child2{
+    /* align-self: end; */
+    flex-basis:100px;
+}
+.child3{
+
+}
+
+
+
