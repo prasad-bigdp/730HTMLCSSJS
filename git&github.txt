@@ -33,6 +33,12 @@ for first time , it will ask you to login
 
 every change you need to repeat step 3,4 and 6
 
+git checkout: it is used to change branch name
+ eg: git checkout branchname
+
+git branch : displays all branches
+
+git log: to see all the logs
 
 
 
