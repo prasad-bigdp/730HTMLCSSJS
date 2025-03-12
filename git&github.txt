@@ -27,6 +27,9 @@ GIT & GITHUB :
 
  3. git add . : it will stage all the changes 
  4. git commit -m "message" : it will save your code with some messgae
+ 5. git remote add origin : it is used to add a repository of github into your git.
+ 6. git push -u origin branch : it is used to push the code into github
+for first time , it will ask you to login
 
 
 
