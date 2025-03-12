@@ -31,6 +31,7 @@ GIT & GITHUB :
  6. git push -u origin branch : it is used to push the code into github
 for first time , it will ask you to login
 
+every change you need to repeat step 3,4 and 6
 
 
 
