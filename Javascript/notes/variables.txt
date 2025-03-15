@@ -1,0 +1,65 @@
+Javascript uses variables to store the values. you can declare a variable in three ways i.e., var,let,const
+eg: var a=5;  (or) let a=5;   (or) const a=5;
+
+what is the difference between var,let and const?
+var is a function scoped variables that can be redeclared, reassigned and also be used before declaration
+function x ()
+{
+    if (true)
+    {
+        console.log(a); // we can access values before initialization using var
+        var a = 5; // var scope is function
+        var a = 10;  //redeclare is valid using var
+        a = 25; // reassign is also valid using var
+    }
+   console.log(a) 
+}
+x();
+
+unitl 2015, JS uses only var, In 2015, It introduces let and const as new ways to declare variables
+   
+   let and const are block scoped variables which cannot be accessed before declaration and cannot be redeclared.
+   let can reassign the value , const cannot reassign the value
+
+/let
+function x() {
+	if (true) {
+		//console.log(a) // we cannot access values before initialization using let and const
+		let a = 5 // let , const  scope is block
+		//let a = 10 //redeclare is not  valid using let,const
+        a = 25 // reassign is also valid using let
+        	console.log(a)
+
+	}
+}
+x()
+
+
+Basic default functions provided by browser are:
+1. alert(message) : alert is used to show some alert 
+to the user
+eg: alert("login successfully")
+2. confirm(question) : confirm is used to ask a question
+to user for confirming his/her action
+eg: confirm("are you sure to delete")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

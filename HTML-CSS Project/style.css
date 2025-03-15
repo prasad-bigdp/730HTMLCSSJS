@@ -21,6 +21,7 @@ nav{
     background-color: black;
     border-radius: 20px;
     box-shadow: 5px 5px 5px var(--primary-color);
+    animation: shaking 1s ease infinite alternate;
 }
 nav ul{
   display: flex;
@@ -195,6 +196,14 @@ footer{
     color: white;
 }
 
+@keyframes shaking{
+  0%{
+    transform: translateY(0);
+  }
+  100%{
+    transform: translateY(-5px);
+  }
+}
 
 /* media queries*/
 @media (max-width:580px){
@@ -221,6 +230,7 @@ footer{
 }
 #projects{
     grid-template-columns: repeat(1,1fr);
+    padding: 0px 10px;
 }
 }
 @media (min-width:577px) and (max-width:978px){
