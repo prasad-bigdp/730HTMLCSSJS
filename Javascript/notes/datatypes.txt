@@ -20,6 +20,120 @@ i. primitive data types
 ii. non-primitive data types
 
 
+i. primitive data Types:  primitive Data Types are the Basic Data Types which are used to stored certain value. There are 5 main primitive data types exists in JS
+   a. number
+   b. string
+   c. boolean
+   d. undefined
+   e. null
+
+   a. number: number is used to represent any numerical value
+     eg: 5,5.256 etc..,
+     It can contain constants like Infinity and In the times when number is expected but not able to return, it goes to "NaN(Not a number)"
+    It contains some default methods like
+    toFixed(n) -- return string with n number of digits after decimal
+    toString(n) -- returns a string of number with base n
+    let p = 25 - 'p';
+p = Infinity;
+p = 5.4183;
+console.log(p, typeof p)
+console.log(p.toFixed(2)) //5.41 -- string
+p = 25;
+console.log(p.toString(2)) //11001 - string.
+There are ways to convert any value 'n' to number like
+Number(n) or add + before n (+n).
+There are so many math methods available by Math library
+console.log(Math.sqrt(16)) //4
+console.log(Math.cbrt(27)) //3
+console.log(Math.abs(-10)) //10
+console.log(Math.max(5, 1, 3, 4, 6)) //6
+console.log(Math.min(3, 4, 2, 1, 8)) //1
+console.log(Math.ceil(4.1)) //5
+console.log(Math.floor(4.8)) //4
+console.log(Math.round(4.8)) //5
+console.log(Math.round(Math.random() * 10000)) //0-1  0.41234,0.814256
+console.log(Math.pow(2,3), 2**3) //8 8
+
+
+ii. strings: strings are used to represent combinations alphabets,digits, symbols etc..,
+It can be represented using " " or  ' ' or ` `
+let q = "prasad"
+console.log( typeof q ) //string
+There is no difference between single or double quotes
+The usage of backticks for string is called Template literal. it is used 
+for writing dynamic strings without breaking the string
+let q = `prasad`
+console.log(q,typeof q)
+q = 25;
+console.log(`the value of q is ${q}`)
+let cost = 4, tax = 5,quantity=10
+console.log(`The Total of buying ${quantity} apples with 
+    each cost ${cost} is ${quantity * cost} but also adds
+     the tax of ${tax} is ${(tax/100)*(cost*quantity)} `)
+
+There are so many string methods are available such as
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
