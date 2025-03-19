@@ -42,14 +42,35 @@ console.log(`The Total of buying ${quantity} apples with
      the tax of ${tax} is ${(tax/100)*(cost*quantity)} `)
 
 // string methods
-let str = "prasad"
+let str = "prasakapad"
 console.log(str.length) //6
-console.log(str[0])
+console.log(str[0]) //p
 console.log(str[0] + str[1]) //pr -- string concatenation
 console.log(str.toUpperCase()) //PRASAD
 console.log(str.toLowerCase()) //prasad
 console.log(str.startsWith("pr")) //true
 console.log(str.endsWith("pr")) //false
+console.log(str.indexOf('a'), str.lastIndexOf('a'))
+str = "JS is so easy";
+console.log(str.split(''))
+console.log(str.slice(2, 5))// is
+console.log("  prasad   ".trim())//prasad
+
+
+let k;
+console.log(k,typeof k) // undefined means missing of values 
+console.log(z)  // not defined is an error
+
+let n = null;
+console.log(n);
+
+// In js it is possible to access values before declaration , called Hoisting. it is not possible with let and const
+console.log(m) //undefined
+var m = 5;
+
+
+
+
 
 
 

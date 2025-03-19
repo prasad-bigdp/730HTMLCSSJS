@@ -72,6 +72,59 @@ console.log(`The Total of buying ${quantity} apples with
      the tax of ${tax} is ${(tax/100)*(cost*quantity)} `)
 
 There are so many string methods are available such as
+// string methods
+let str = "prasakapad"
+console.log(str.length) //6  -- returns no of characters in given string
+console.log(str[0]) //p -- string values starts with zero index
+console.log(str[0] + str[1]) //pr -- string concatenation
+console.log(str.toUpperCase()) //PRASAD -- converts to uppercase
+console.log(str.toLowerCase()) //prasad -- converts to lowercase
+console.log(str.startsWith("pr")) //true -- check whether it starts with given string or not and returns boolean
+console.log(str.endsWith("pr")) //false  -- check whether it ends with given string or not and returns boolean
+console.log(str.indexOf('a'), str.lastIndexOf('a')) -- returns index of first Occurence of given value, last Occurence of given value
+str = "JS is so easy"; 
+console.log(str.split('')) // divides the string based on delimiter and returns array
+console.log(str.slice(2, 5))// is -- returns part of string from 2nd index to 4th index
+console.log("  prasad   ".trim())//prasad -- returns string after removing space at start and end of string
+
+
+iii. boolean : boolean is used to store true or false. true represents 1  and false represents 0. mostly used on conditions.
+
+iv. undefined: undefined represents accidental absence of value. 
+
+v. null : null represents intentional absence of value
+
+
+let k;
+console.log(k,typeof k) // undefined means missing of values 
+console.log(z)  // not defined is an error
+
+let n = null;
+console.log(n);
+
+// In js it is possible to access values before declaration , called Hoisting. it is not possible with let and const
+console.log(m) //undefined
+var m = 5;
+
+non- primitive Data types:
+    These Data types also called Reference datatypes. They are
+    i. functions
+    ii. arrays
+    iii. objects
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
