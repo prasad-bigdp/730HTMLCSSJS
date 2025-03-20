@@ -1,0 +1,16 @@
+Basics:
+----------
+   Introduction
+   variables(var,let,const)
+   Data types 
+    -primitve - number - math methods, string - methods,boolean,undefined,null
+    -non-primitive - functions,arrays,objects
+   operators
+   control statements (if and switch) and loops (while,dowhile,for)
+   functions
+   arrays
+   objects
+DOM
+---
+ADvanced
+-------

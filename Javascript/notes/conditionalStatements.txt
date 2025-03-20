@@ -1,0 +1,64 @@
+Decision making statements: These statements are used to make control flow dynamic according to the condition.
+i. if: if is used to make a decision based on a condition. it is a block which will be executed only of the condition is true
+  syntax: if(condition)
+  {
+       //statements
+  }
+
+  if-else: if else is used to change the flow of statements to execute based on conditions result
+  if condition is true then it executes if block else it executes else block
+
+  syntax: 
+  if(condition)
+  {
+    statements;
+  }          
+  else
+  {
+    statements
+  }
+
+  if--else--if: it executes multiple block of statements
+ where multiple conditions are involved
+   if(condition1){
+    //statements
+   }
+   else if(condition 2){
+    //statements
+   }
+   .....
+   else{
+    //statements
+   }
+
+if --else--if is not ideal when multiple conditions needed to be checked. we have alternative for if--else--if called switch
+
+switch: switch takes an expression or a value and checks multiple conditions as cases. if the value is matched with the case, then that particular case statements will be executed
+   switch(value){
+    case v1: //statements; break;
+    case v2: //statements; break;
+    case v3: //statements; break;
+    case v4: //statements; break;
+    case v5: //statements; break;
+    default: //statements;break;
+   }
+eg: let value="1";
+switch(value)
+{
+    case '1':console.log("Monday");break;
+    case '2':console.log("Tuesday");break;
+    case '3':console.log("Wednesday");break;
+    case '4':console.log("Thursday");break;
+    case '5':console.log("Friday");break;
+    case '6':console.log("Saturday");break;
+    case '7':console.log("Sunday");break;
+    default:console.log("Please enter valid input")
+}
+
+
+
+
+
+
+
+
