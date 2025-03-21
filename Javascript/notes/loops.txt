@@ -1,0 +1,41 @@
+loops are used to repeat certain statements again and again until the condition is false
+Each repitition is called Iteration.loops are primarily two types
+  i. Entry Control loops
+  ii. Exit Control loops
+
+i. Entry control loops: Entry Control loops checks the condition at the starting the loop
+  eg: while, for
+
+ii. Exit Control loops: Exit control loops checks the condition at the ending of the loop
+  eg: do-while
+
+  a. while: while is a entry control loop which have a condition and executes a set of statements again and again until the condition is false
+   syntax: intialization;
+           while(condition){
+            //set of statements;
+            updation;
+           }
+
+    eg:let i = 0; //initialization;
+while (i <= 10) // condition
+{
+    console.log(i);
+    i++; //updation
+}
+
+  b. do while : doWhile checks the condition at the exit of the loop and repeat the set of statements execution if the condition is true
+  syntax: 
+  initialization;
+  do{
+    //statements;
+    //updation;
+  }while(condition);
+
+  
+
+
+
+
+
+
+
