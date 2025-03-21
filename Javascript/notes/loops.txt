@@ -31,7 +31,25 @@ while (i <= 10) // condition
     //updation;
   }while(condition);
 
-  
+ c. for loop: for loop is used to iterate certain statements until the condition is false but for allows you to write in single line all initialization,condition and updation.
+  syntax for(initialization;condition;updation){
+    //statements;
+  }
+
+  for..of : for of is used to iterate values of the array and 
+  it provides each time array elements
+  eg: for(let x of arrayname){
+    console.log(x) 
+  }
+  The above loops runs until end of the array and each time it takes x as array elements
+
+  for..in: for in is used to iterate values of the array and it provides each time array index. for in is ideal for objects
+  eg: for(let x in arrayname){
+    console.log(x) 
+  }
+  The above loops runs until end of the array and each time it takes x as array elements index
+
+
 
 
 
