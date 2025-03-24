@@ -1,0 +1,138 @@
+function is a piece of code that can be repreated and used for specific tasks. it supports DRY(Don't Repeat Yourself) principle.
+basic syntax:
+function function-name(parameters)
+{
+  //function body
+}
+function_name() //function call
+
+eg: function sum ()
+{
+    let a = 10, b = 20;
+    console.log(a+b)
+}
+
+sum() //30
+
+functions call pass values as parameters
+function sum2(a,b)
+{
+    console.log(a+b)
+}
+
+sum2("sunil", 2) //sunil2
+
+functions can return values
+function sum4 (a, b)
+{
+    return a + b;
+}
+let res = sum4(5, 4)
+console.log(res)
+
+functions can accept more values than it is passed, by default not passed parameters are "undefined"
+
+function sum5 (a, b)
+{
+    console.log(a+b)
+}
+sum5(10)
+
+b is not passed so it will be taken as "undefined". 
+Instead of undefined , you can also pass default values
+// default tax in system is 5% unless actual tax mentioned
+function calculateTax (cost, tax = 5)
+{
+    let res = (tax / 100) * cost 
+  console.log(cost+res)  //210
+}
+calculateTax(200)
+
+REST and SPREAD operators:
+
+        functions can even take more number of values and all extra values will be converted as an array and REST is denoted by three dots
+        function sum8 (a, ...b)
+{
+    console.log(a,b)// 5   [4,3,2,1]  
+}
+sum8(5,4,3,2,1)
+
+       A rest parameter must be last in a parameter list.
+
+
+       There is an another operator similar to rest called spread operator . it also uses three dots but rest operator will take remaining elements and make them as array and spread operator will remove the elements from the array
+
+       function simpleSpread ()
+{
+    let arr = [5, 4];
+    let arr2 = [arr, 3];
+    console.log(arr2) //[[5,4],3]
+    let arr3 = [...arr, 3];
+    console.log(arr3) //[5,4,3]
+    // add two arrays
+    let a1 = [5, 4], a2 = [6, 7]
+    let res = [...a1, ...a2];  //[5,4,6,7]
+    console.log(res)
+  }
+
+
+  function friends (a, ...b)
+{
+    console.log(b) // ["rachel", "phoebe"];
+    let x=[...b,"chandler"] // ["rachel","phoebe","chandler"]
+}
+  friends("joey","rachel","phoebe")
+
+
+
+  -- functions can be considered as variables and functions can also pass as parameters to another functions called as callback functions
+
+
+function mad ()
+{
+    console.log("i'm mad")
+} 
+function bad (a)
+{
+    a()
+}
+bad(mad)
+
+function sum (a, b)
+{
+    console.log(a + b);
+}
+function sub (a, b)
+{
+    console.log(a - b);
+}
+function cal (x, y)
+{
+    x(5, 4)
+    y(5,4)
+}
+cal(sum,sub)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

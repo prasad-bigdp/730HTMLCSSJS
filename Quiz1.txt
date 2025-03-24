@@ -1,0 +1,102 @@
+i. what is the difference between var,let and const?
+    var is a function scoped variable which can be reassigned and redeclared. it can used before declaration
+    let and const cannot be redeclared and cannot be used before declaration. these  are block scoped variables.
+    let can be reassigned but const cannot be reassigned
+
+2. Guess the output
+const x=10;
+const y=20;
+const z=`30`
+console.log(x+y+z) //3030
+
+3. Guess the output
+console.log(x)  //undefined
+var x= 30;
+
+4. In JS, it is possible to use the value before declaration , it is called as Hoisting
+
+5. Guess the output
+let x=20;
+let z= ++x + x++ + --x; //21+21+21
+console.log(z-x) //63-21 = 42
+
+6. Guess the output
+let x=5;
+if(x=10){
+    console.log("Good")
+}
+else{
+    console.log("bad")
+}
+
+7. write a simple code to print following patterns
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+
+for(let i=1;i<=5;i++){
+    for(let j=1;j<=i;j++){
+        console.log(j+" ")
+    }
+}
+
+
+8. Guess the output
+  let x=2
+  switch(x){
+    case 2: console.log("I'm 2");break;
+    case 2: console.log("I'm not 2");break;
+    default: console.log("error")
+  }
+
+
+9. Guess the output 
+let x=2;
+if(x>3)
+  if(x<5)
+    conxole.log("good")
+  else
+    console.log("not good")
+
+10. Guess the output:
+  if(0==false){
+    console.log("good")
+  }
+  else{
+    console.log("bad")
+  }
+
+11. Guess the output
+let x=5,y='raj';
+console.log(x-y)//NaN - not a number
+console.log(typeof(x-y)) //number
+
+12. //find the second heighest value in given array
+let arr=[5,4,8,2,1]
+let arr =[5,4,8,2,1];
+let res= arr[0];
+for(i=1;i<=arr.length;i++)
+{
+    console.log(arr[i])
+    if(res < arr[i])
+        res = arr[i];
+}
+console.log(res);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

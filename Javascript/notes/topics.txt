@@ -12,5 +12,12 @@ Basics:
    objects
 DOM
 ---
+   dom selection,manipulation,creation,events
 ADvanced
 -------
+  asynchronous js, fetch api,
+  promises,
+  async await
+  es6
+  BOM, libraries
+  Main Project
