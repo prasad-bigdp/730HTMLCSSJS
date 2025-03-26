@@ -125,6 +125,56 @@ cal(sum,sub)
 
 
 
+// functions can be treated as variables
+let x=20;
+function add(){
+    let a=3,b=4;
+    console.log(a+b)
+}
+console.log(x, add)
+function add2 ()
+{
+    console.log("hello world")
+}
+console.log(add2)
+
+let p = function fun ()
+{
+    console.log("simple function")
+}
+
+console.log(p)
+
+
+// 1. create a function that returns even or odd based on number it receives
+const evenOdd = (a) => (a % 2 == 0) ? "even" : "odd";
+function numberIs(num) {
+    return  (num % 2 == 0) ? console.log(`Number ${num} is Even `) :
+       console.log(`Number ${num} is Odd `) 
+}
+numberIs(5)
+
+// write a function that adds the digits until you get a single digits
+// 578 ==> 5+7+8 ==>20==>2+0==>2
+//982  ==> 9+8+2==>19==>10==>1+0==>1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

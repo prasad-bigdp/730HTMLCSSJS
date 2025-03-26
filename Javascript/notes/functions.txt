@@ -117,6 +117,121 @@ cal(sum,sub)
 
 
 
+function x(a,b){
+    return a+b
+}
+function y (fun){
+  let res=fun(3,4)
+  console.log(res)
+}
+y(x)
+
+
+
+
+
+
+// functions can be treated as variables
+let x=20;
+var add= function add(){
+    let a=3,b=4;
+    console.log(a+b)
+}
+console.log(x,add)
+
+A function can be expresses as a variable expression. it's called
+function expression
+let x= function fun(){
+    console.log("hi")
+}
+
+here x is full function 
+we can even write function expression for anonymous function
+
+let x= function (){
+    console.log("hi")
+}
+// ecommerce scenerio
+function addCart(){ // logic for adding count and price and items  }
+function cartPage(y){
+y()
+}
+function productPage(x){
+   x()
+}
+productPage(addCart)
+cartPage(addCart)
+
+let x=20;
+function sum9(a){
+    console.log(a)
+}
+sum9(x)
+
+// different types of writing functions
+// function declaration -- function with proper name
+function fun2(){
+    console.log("hello world")
+}
+//function expression -- function without name giving to another variable
+let fun2= function(){
+    console.log("hello world")
+}
+//arrow function -- simplifies modern expression for function expression
+let fun2 = () =>{
+     console.log("hello world")
+}
+advantage is for single statement body, you don't need {}
+let fun2 = () =>console.log("hello world")
+arrow function don't need return keyword for single statements
+function sum10(a,b){
+    return a+b;
+}
+let sum10=function(a,b){
+    return a+b;
+}
+const sum10 = (a,b) => a+b;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

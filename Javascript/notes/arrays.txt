@@ -1,0 +1,35 @@
+Array is used to store certain number of elements. Array is a collection of elements
+let arr=["raj",20,true]
+Arrays are represented by square brackets. Each value in the array is separated by comma and they are called array elements
+Every array element contains an unique number to address the element. That is called Index. Indexes are always starts from 
+0 and increase by 1
+arr[0]="raj";arr[1]=20;arr[2]=true
+In JS , arrays don't have any limit
+
+//Array methods
+1.length:length is used to find total number of elements inside the array
+2.push: push is used to add the value/values at the end of the array
+3.pop:pop is used to remove the last value of the array
+4.unshift: unshift is used to add the values/value at the beginning of the array
+5.shift: shift is used to remove the first value of the array
+6. splice: splice is used to remove value/values at any specific index and add value/value at specific index
+splice(indexValue,deleteCount,insertElements)
+7. reverse: reverse is used to reverse the array
+8. indexOf(element): it is used to return the index of first occurence of element in given array
+9.lastIndexOf(element): it is used to return the last Occurence of element in given array
+10. includes(element): returns true/false based on whether the element existed in array or not
+
+// iterators of array
+1. forEach(): forEach accepts a callback function and it is used to return each and every value of array to callback function and do the operations. forEach cannot return any values
+
+
+
+
+
+
+
+
+
+
+
+
