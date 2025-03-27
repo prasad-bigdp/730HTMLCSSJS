@@ -20,7 +20,56 @@ splice(indexValue,deleteCount,insertElements)
 10. includes(element): returns true/false based on whether the element existed in array or not
 
 // iterators of array
-1. forEach(): forEach accepts a callback function and it is used to return each and every value of array to callback function and do the operations. forEach cannot return any values
+1. forEach(): forEach accepts a callback function and it is used to perform each and every value of array to callback function and do the operations. forEach cannot return any values
+  arrayName.forEach((value,index)=>{
+    //statments
+  })
+2. map(): map accepts a callback function and it passes each value,index to the calleback function and return the value returned by callback function
+map returns for every element of the array
+   arrayName.map((value,index)=>{
+    //statments
+  })
+3. filter(): filter accepts a callback function and it passes each value to the callback function and return elements which got true returned by the callback function
+    arrayName.filter((value,index)=>{
+    //statments
+  })
+4. some(): some accepts a callback function and it passes each value,index to the callback function and return true if atleast one of the value returns true in callback
+arrayName.some((value,index)=>{
+    //statments
+  })
+5. every():every accepts a callback function and it passes each value,index to the callback function and return true if all the values returns true in callback
+arrayName.every((value,index)=>{
+    //statments
+  })
+
+6. sort(): sort is used to sort the elements of the array. by default it sorts in alphabetical order even for numbers, but we can bypass it by sending a callback which works as bubblesort algorithm
+  -- if returned value true , swap the elements
+  -- else , don't swap the elements
+  increasing:  arr.sort((a,b)=>a-b) 
+  descreasing: arr.sort((a,b)=>b-a)
+
+7. reduce(): reduce is used to accept a callback and perform cumulative value on array elements.it also accepts initial value
+  arrayName.reduce((previousValue,currenetValue)=>
+  previousValue+currenetValue,0) 
+
+  objects: object is like a physical entity that contains properties and methods
+  eg: let obj= {
+    name:"raj",
+    age:50,
+    fun: function(){
+        console.log(this.name)
+    }
+  }
+  To access properties, you can use dot or index signature
+  console.log(obj.name, obj['name'])
+  obj.fun();
+'this' keyword refers current calling object name
+
+
+
+
+
+
 
 
 
