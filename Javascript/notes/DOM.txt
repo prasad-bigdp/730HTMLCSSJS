@@ -1,0 +1,18 @@
+DOM stands for Document Object Model. 
+document object is a default object created by browser which contains a copy of html and css code. document is used in javascript to manipulate the HTML/CSS
+Document object manipulation:
+     To manipulate DOM first we need to select the DOM element
+To select an HTML element/elements, we can use following ways
+i. document.getElementsByTagName('tagname'):
+         it selects all elements in document object with specific tagName and returns as a array
+ii. document.getElementsByClassName('className'):
+         it selects all elements in document object with specific className and returns an array
+iii. document.getElementById('idname'):
+         it selects element with specific id and returns it 
+iv. document.querySelector('query'):
+         it selects first element with specific query and returns it 
+v. document,querySelectorAll('query'):
+         it selects all the elements with specific query and returns array.
+
+
+

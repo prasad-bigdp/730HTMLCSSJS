@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			body {
+				background: linear-gradient(orange, tomato);
+				height: 100vh;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			body > div {
+				background-color: white;
+				padding: 30px;
+				border-radius: 20px;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+			}
+            .buttons{
+                display: flex;
+                gap: 10px;
+            }
+            button{
+                background: rgba(14, 11, 11, 0.785);
+                color: white;
+                padding: 10px;
+                border-radius: 20px;
+            }
+            button:hover{
+                background: linear-gradient(orange,tomato);
+            }
+		</style>
+	</head>
+	<body>
+		<!-- <div class="main">
+        <h1 class="bujji">Hello world</h1>
+        <div class="box">
+            <p class="bujji" id="chitti">10</p>
+        </div>
+        <button onclick="increase()">click me</button>
+    </div> -->
+
+		<div>
+			<p id="count">0</p>
+			<div class="buttons">
+				<button onclick="incr()">+</button>
+				<button onclick="decr()">-</button>
+				<button onclick="reset()">reset</button>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
