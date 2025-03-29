@@ -18,13 +18,17 @@
 // }
 
 let para = document.getElementById('count');
+let input = document.getElementById('inp');
 let c = 0;
 function incr ()
 {
   if (c < 20)
   {
     c++
-		para.textContent = c
+    para.textContent = input.value;
+    para.style.color = "red";
+    para.style.backgroundColor = "green"
+    para.style.animationName = "slideDown"
   }
   else
   {
