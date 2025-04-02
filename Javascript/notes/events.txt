@@ -1,0 +1,46 @@
+Event is used to trigger an action. Events are performed by user. There are different kinds of Events such as
+  i. mouse Events
+  ii. keyboard Events
+  iii. form Events
+  iv. window events etc..,
+
+  i. mouse events: mouse events are performed by user using the mouse 
+  eg: click,dblclick.mouseover,mouseout etc..,
+
+  ii. keyboard events: keyboard events are performed by user using the keyboard.
+  eg: keypress
+
+    every time we trigger an action using the event, the function/action receives event object with its values
+    for keyboard events, name 'key' contains the value clicked in keyboard
+
+document.addEventListener('keypress', fun)
+function fun (e)
+{
+    if (e.key == 'r')
+    {
+            document.body.style.background = "red"
+    }
+}
+
+iii. form events: These are used to handle the inputs and formData
+    a. input: it is used to trigger an action when an input is entered
+    b. change : it is used to trigger an action when an input value is changed
+    c. select : it is used to trigger an action when some value is selected
+    d. submit : it is used to trigger an action when some form is submitted
+
+
+iv. window events:  These events are automatically performed by browser or user
+eg: scroll,resize,load etc..,
+
+every event can be triggered in two ways
+i. inline or in HTML event handler: we can trigger an action with events in HTML like
+<button click="fun()">click me</button>
+
+ii. EventLisner in Js: we can trigger an action with events in JS using addEventListener
+//HTML
+<button id="btn">click me</button>
+//JS
+document.getElementById('btn').addEventListener('click',fun)
+
+
+

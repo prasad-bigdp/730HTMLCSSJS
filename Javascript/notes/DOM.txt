@@ -15,4 +15,29 @@ v. document,querySelectorAll('query'):
          it selects all the elements with specific query and returns array.
 
 
+Manipulation:
+  i. textContent: we can change the text inside an element using textContent.
+  ii. innerHTML: we can change the HTML inside an element using innerHTML.
+  iii. value: we can access/change input value using value
+  iv. style : we can change/manipulate style of an element using style attribute
+  v. classList : we can even add/remove class names using classList
+
+  creation:
+  using DOM we can even create an element and add that element to the DOM tree
+  createElement('elementName'): we can create an element using DOM createElement
+  append/appendChild : we can add these elements using append or appendChild. appendChild is used for single element and append is used for multiple elements
+  after: it can used to add after certain elements
+  before: it is used to add before certain element
+
+
+  
+
+
+
+
+
+
+
+
+
 
