@@ -1,0 +1,56 @@
+Javascript is synchronous(run line after line) and single threaded(one task at a time).
+but there are possible ways to make JS as asynchronous
+   i. Asynchronous JS can run paralleley or after certain time without blocking the actual code flow. seynchronous means code that runs sequentially
+   ii. Asynchronous Javascript will perform certain changes to only specific parts of a web page
+   iii. best example is request to the backend/server
+
+Examples:
+  a. Google Search: when you search for something, the search results s are loaded asynchronously,as you type , google sends request to its servers and retrive search results
+  b. facebook, insta feed, when you scroll, it request server and responds it 
+  c. live tracking position (GPS)
+  d.  youtube streaming video
+  e.  price update in ecommerce
+
+  To understand asynchronous easily, first we will learn timers
+  By default, browser provides two timer functions
+  i. setTimeout
+  ii. setInterval
+
+i. setTimeout: it will take two parameter (a callback function and timer in milliseconds). it will execute the function automatically after the time is over but it executes only one time once the the time is over
+  let c=0;
+  setTimeout(function(){
+    console.log(c);
+    c++;
+  },1000)
+
+ii. setInterval: it also accepts two parameters (a callback function and timer in milliseconds). it will execute the function after every time the timer is over
+let c=0;
+setInterval(function(){
+    console.log(c);
+    c++;
+},1000)
+
+
+but we need to clear these timeout and intervals, so we can use,
+
+clearTimeout : clearTimeout will accept timeout variable and stops it
+clearInterval : clearInterval will accepts interval variable and stops it
+we call asynchronous javascript in short form called "AJAX"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
