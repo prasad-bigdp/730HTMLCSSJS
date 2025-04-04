@@ -38,6 +38,45 @@ clearInterval : clearInterval will accepts interval variable and stops it
 we call asynchronous javascript in short form called "AJAX"
 
 
+callback hell: once js is used to work with multiple callbacks nested for sequential operations . it is called callback hell or pyramid of doom. it is very difficult to understand so JS introduces a concept called "PROMISES"
+Every Async function returns a PROMISE
+
+
+Promise :  A Promise is an object which defines an eventual completion of asyncchronous operation
+A Promise contains three states i.e., fulfilled/rejected/pending. By default Promises have Pending state
+The one that receives the Promise resolves it using then and catch. if promise if fulfilled, it will go to then block or else it will go to catch block
+
+Ususally backend will give Promises. we can even create  a peomise using " new Promise"
+
+syntax :  let p = new Promise()
+
+example: //creating a promise
+let k = 10;
+let p = new Promise((resolve, reject) =>
+{
+    setTimeout(() =>
+    {
+        if (k % 2 == 0) return resolve("take 1 lakh")
+        else return reject("i will not give")
+    },5000)
+})
+//use a promise
+p
+    .then((p) => console.log(p))
+    .catch((err) => console.log(err))
+
+Multiple Promises can be connected using then blocks , it is called Promise chaining. In promise chaining , the first then block returns value to the second then block and second  then blocks returns value to the next then block
+
+API ( APplication Programming Interface ):
+APplication Programming Interface is used to get the data from server. it acts like a bridge between frontend and backend.
+Every API has an endpoint that contains data. if the data is in JSON(Javascript object notation) format, then that API is called REST API
+In olden times, people use, xhr(xmlhttpRequest) for API's but now, every browser have a default method called "fetch" which is used for handling API request.
+
+  fetch will return a promise
+
+
+
+
 
 
 
