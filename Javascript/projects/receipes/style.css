@@ -1,0 +1,15 @@
+body{
+    margin: auto;
+    max-width: 1280px;
+}
+#main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+#main>div{
+   
+}
+img{
+    height: 300px;
+}

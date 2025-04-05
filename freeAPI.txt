@@ -1,0 +1,14 @@
+randomQuote
+randomJoke
+random.me
+pokeAPI
+spotify API
+nasa API
+openweather API
+fakestoreAPI
+dummyjson api
+tmdb api
+omdb api
+google maps api
+calories api
+cocktail api

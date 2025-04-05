@@ -74,8 +74,17 @@ In olden times, people use, xhr(xmlhttpRequest) for API's but now, every browser
 
   fetch will return a promise
 
+fetch(url)
+.then((res)=>res.json())
+.then((data)=>console.log(data))
+.catch((err)=>console.log(err))
 
-
+Promises contains chaining which is difficult to read , so JS provides modern
+approach called "async - await".
+await is a keyword which is used to resolve promise but await will work only in async functions
+ const res = await fetch(url)
+ const data = await res.json()
+ console.log(data)
 
 
 

@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(orange,tomato);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main{
+    width: 50vw;
+    padding: 50px;
+    border-radius: 40px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+h2::before{
+    content:'\201c';
+    font-size: 48px;
+    color: black;
+}
+h3{
+   align-self: end;
+}
