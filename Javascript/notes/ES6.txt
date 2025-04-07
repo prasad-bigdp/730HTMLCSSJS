@@ -1,0 +1,92 @@
+Ecmascript:Ecmascript provides new features to JS by relesing new versions. Recent version of ES id ES15
+but from Es6 JS have so much new features
+Major changes happened in ES6 (Es2015)
+   a. introduction of let and const
+   b. introduction of default values/parameters on functions
+   c. rest vs spread operator
+   d. template literals
+   e. array and object destructuring
+   f. classes (OOP)
+   g. module system
+   h. Arrow functions
+
+
+Array and Object destructuring:
+Array values can be taken as independent values using array destructuring
+eg: let arr=[5,4,3];
+let [a,b,c]=arr;
+console.log(a) //5
+Object values can also be taken as independent values so that we need not to refer object everytime
+eg: let obj={email:"a@a.com",phno:3343};
+let {phno}=obj;
+console.log(phno);
+
+module system:
+Module systems are used to connect multiple JS Files. Different module systems are:
+   i. require JS
+   ii. common JS
+   iii. ES6 module system
+
+ES6 module System: In this module system , we use keywords like export and import
+export is used to export variables, functions,classes etc..,
+we can export only one value using 'export default'
+we can export multiple values using 'export {value1,value2....}'
+
+import is used to import variables, function,classes which exported by another js file.
+
+we can import default value using
+import value from 'path to js'
+
+we can import multiple values using 
+'import {value1,value2...} from 'path to js'
+
+classes & OOP: JS is a functional oriented programming language but ES6 brought us an option to make JS as object oriented by introducing classes
+   class is a collection of objects/blueprint of a object. object is a real world entity. class contains properties and methods such that every object will have these properties and methods separately
+
+   class combines methods and properties as a single unit. This feature is called encapsulation
+   To initialize default values to classm we use constructor. it is default method in class which will be invoked automatically when we create object
+    There are two types of constructors
+    a. default constructor
+    b. parameterized constructor
+
+    default constructor will not have any parameters but parameterized constructor passes the values.
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
