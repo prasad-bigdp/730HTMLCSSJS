@@ -1,1 +1,110 @@
-Browser Object Model: Whole browser will be in one object called 'window'
+Browser Object Model (BOM)
+=========================
+
+1. What is BOM?
+- The Browser Object Model (BOM) represents the hierarchical structure of the browser window
+- It provides an interface to interact with the browser window
+- The main object of BOM is 'window', which represents the browser window
+- All global JavaScript objects, functions, and variables automatically become members of the window object
+
+2. Main Components of BOM:
+   
+window object (Global object)
+├── window.document (DOM)
+├── window.history
+├── window.location
+├── window.navigator
+├── window.screen
+└── window.frames
+
+3. Window Object Properties and Methods:
+----------------------------------------
+a) Window Size and Position:
+   - innerHeight: Height of browser window viewport
+   - innerWidth: Width of browser window viewport
+   - outerHeight: Height of browser window including toolbars/scrollbars
+   - outerWidth: Width of browser window including toolbars/scrollbars
+   - Methods:
+     * window.resizeTo(width, height)
+     * window.resizeBy(deltaX, deltaY)
+     * window.moveTo(x, y)
+     * window.moveBy(deltaX, deltaY)
+
+b) Window Methods:
+   - window.open(): Opens a new browser window
+   - window.close(): Closes current window
+   - window.alert(): Displays alert box with message
+   - window.confirm(): Displays dialog box with OK/Cancel
+   - window.prompt(): Displays dialog box for user input
+   - window.print(): Opens print dialog
+   - window.scrollTo(): Scrolls to specific coordinates
+   - window.scrollBy(): Scrolls by given amount
+
+4. History Object (window.history):
+----------------------------------
+- Maintains browser's history
+Methods:
+- history.back(): Same as clicking back button
+- history.forward(): Same as clicking forward button
+- history.go(n): Move n pages forward(positive) or backward(negative)
+- history.pushState(): Adds new state to history stack
+- history.replaceState(): Updates current history state
+
+5. Location Object (window.location):
+-----------------------------------
+Properties:
+- href: Complete URL
+- protocol: Protocol part (http:, https:)
+- host: Hostname and port
+- hostname: Domain name
+- port: Port number
+- pathname: Path
+- search: Query string
+- hash: Fragment/anchor
+Methods:
+- assign(): Loads new document
+- reload(): Reloads current document
+- replace(): Replaces current document
+
+6. Navigator Object (window.navigator):
+------------------------------------
+Properties:
+- userAgent: Browser identification
+- platform: Operating system
+- language: Browser language
+- cookieEnabled: Cookie status
+- onLine: Online status
+- geolocation: Geographical location
+
+7. Screen Object (window.screen):
+-------------------------------
+Properties:
+- width: Screen width
+- height: Screen height
+- availWidth: Available screen width
+- availHeight: Available screen height
+- colorDepth: Color depth
+- pixelDepth: Pixel depth
+
+8. Timing Functions:
+------------------
+- setTimeout(): Executes function after specified delay
+- setInterval(): Repeatedly executes function at specified interval
+- clearTimeout(): Cancels setTimeout
+- clearInterval(): Cancels setInterval
+
+Important Notes:
+---------------
+1. BOM is not standardized, implementation may vary across browsers
+2. 'window' object is global scope in client-side JavaScript
+3. All global variables and functions become properties of window object
+4. Most BOM objects have properties and methods for browser interaction
+5. Modern browsers implement most BOM features consistently
+
+Best Practices:
+--------------
+1. Always check browser compatibility
+2. Use feature detection instead of browser detection
+3. Handle errors when using BOM methods
+4. Consider user privacy when using navigator properties
+5. Use modern APIs when available (e.g., History API instead of location.hash)
