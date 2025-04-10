@@ -1,0 +1,22 @@
+*{
+    transition: all 0.3s ease;
+}
+body{
+    height: 100vh;
+}
+.nav-link:hover{
+  color: green !important;
+}
+section{
+    padding: 50px 0px;
+}
+#categories img:hover{
+    scale: 1.05;
+}
+#mainProducts{
+    max-width: 1280px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}

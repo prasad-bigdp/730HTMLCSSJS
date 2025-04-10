@@ -1,0 +1,1 @@
+Browser Object Model: Whole browser will be in one object called 'window'

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+       <nav class="navbar navbar-expand-lg bg-primary-subtle">
+        <div class="container d-flex justify-content-between">
+         <a class="navbar-brand" href="#">
+            Cheap <span class=" text-bg-success p-2 rounded-end-3 rounded-start-3">Bazzar.</span>
+         </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex flex-column flex-lg-row gap-2">
+        <li class="nav-item">
+          <a class="nav-link active fs-3 text-black" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fs-3 text-black" href="./pages/products.html">Products  <span id="cartCount" class=" badge">0</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fs-3 text-black" href="#">Cart</a>
+        </li>
+      </ul>
+       </div>
+        </div>
+       </nav>
+    </header>
+    <main>
+        <section id="banner" class=" p-0">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/64596872822814.jpg" class="d-block w-100" alt="image1">
+    </div>
+    <div class="carousel-item">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/64344497061918.jpg" class="d-block w-100" alt="image2">
+    </div>
+    <div class="carousel-item">
+      <img src="https://assets.tatacliq.com/medias/sys_master/images/64596873379870.jpg" class="d-block w-100" alt="image3">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon p-2 rounded-circle bg-success" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon p-2 rounded-circle bg-success" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+        </section>
+        <h2 class=" my-4 fs-2 text-center">Categories</h2>
+        <section id="categories" class=" container d-flex gap-2">
+            <div>
+                   <img src="https://assets.tatacliq.com/medias/sys_master/images/63600371040286.png" alt="womenWear" class=" rounded-circle object-fit-cover img-thumbnail">
+            </div>
+            <div>
+                <img src="https://assets.tatacliq.com/medias/sys_master/images/63600370974750.png" alt="dresses" class=" rounded-circle object-fit-cover img-thumbnail">
+            </div>
+            <div>
+               <img src="https://assets.tatacliq.com/medias/sys_master/images/63600370974750.png" alt="child" class=" rounded-circle object-fit-cover img-thumbnail">
+            </div>
+           <div>
+               <img src="https://assets.tatacliq.com/medias/sys_master/images/63600371105822.png" alt="men" class=" rounded-circle object-fit-cover img-thumbnail">
+           </div>
+               <div>
+                   <img src="https://assets.tatacliq.com/medias/sys_master/images/63600371040286.png" alt="womenWear" class=" rounded-circle object-fit-cover img-thumbnail">
+            </div>
+            <div>
+                <img src="https://assets.tatacliq.com/medias/sys_master/images/63600370974750.png" alt="dresses" class=" rounded-circle object-fit-cover img-thumbnail">
+            </div>
+            <div>
+               <img src="https://assets.tatacliq.com/medias/sys_master/images/63600370974750.png" alt="child" class=" rounded-circle object-fit-cover img-thumbnail">
+            </div>
+           <div>
+               <img src="https://assets.tatacliq.com/medias/sys_master/images/63600371105822.png" alt="men" class=" rounded-circle object-fit-cover img-thumbnail">
+           </div>
+            
+            
+        </section>
+        <h2 class=" my-4 fs-2 text-center">Top Products</h2>
+        <section id="top" class=" container d-flex gap-2">
+
+        </section>
+    </main>
+    <footer class=" bg-black text-white text-center mb-0 py-3">
+      <hr>
+      <p>This site belongs to XYZ &copy; 2025</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./JS/common.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

@@ -20,4 +20,13 @@ class Student
 let o = new Student(123,"raj",25);
 o.study()
 console.log(o.id)
-
+class Topper extends Student
+{
+    rank;
+    constructor(a, b, c, d)
+    {
+        super(a, b, c);
+        this.rank = d;
+    }
+}
+let ob= new Topper(124,"suresh",26,1)

@@ -51,6 +51,18 @@ classes & OOP: JS is a functional oriented programming language but ES6 brought 
 
     default constructor will not have any parameters but parameterized constructor passes the values.
     
+    one class properties and methods can be given to another class using "extends" keyword. it is called Inheritance
+    when inheritance happens, the class which gives values is called parent class or super class or base class
+    the class that receives values is called child class or sub class or derived class
+
+    
+    Every child constructor should call parent class constructor by using super method
+
+    
+
+
+
+
 
 
 
